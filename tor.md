@@ -14,6 +14,8 @@ Quando un nodo decide di spedire un pacchetto fuori dalla rete, calcola la strad
 
 A ogni __hop__ nella rete, ogni nodo rimuove il proprio strato di crittografia. In questo modo si è certi che il pacchetto originale possa essere letto solo dal __nodo di uscita__ e che il percorso del pacchetto __sia per forza quello stabilito in origine dal mittente__.
 
+## Servizi Nascosti
+
 ## In pratica
 
 Il software Tor presenta una interfaccia _a riga di comando (command line)_ che permette di specificare varie opzioni, anche se la maggior parte di esse vanno specificate nel file di configurazione denominato _torrc_.
@@ -23,6 +25,8 @@ Tor permette l'instradamento del traffico nella propria rete offrendo all'utente
 ### Vidalia
 
 ### Tor Browser
+
+### Gestire il proprio servizio nascosto
 
 ## Bloccare l'accesso a Tor
 
@@ -44,6 +48,4 @@ Tor presenta una serie di punti deboli che vanno considerati da ogni utilizzator
 Queste considerazione non comprendono la possibilità di attacchi mirati al controllo della rete Tor che rischierebbero di compromettere l'anonimato e la privacy di tutti gli utenti.
 
 Inoltre, l'enorme quantità di operazione crittografiche necessarie e di overhead per l'invio dei layer crittografici e dei numerosi hop rende Tor una rete __estremamente lenta__ e __impossibile da controllare__ creando la possibilità di __saturare la rete con dati inutili allo scopo di deterrente per gli utenti di Tor__. 
-
-## Servizi Nascosti
 
