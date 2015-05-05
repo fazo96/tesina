@@ -5,5 +5,6 @@
 * [Tor](tor.md)
    * [Funzionamento](Tor/funzionamento.md)
    * Come si usa
+   * Limitazioni e problemi
 * [Bitcoin](bitcoin.md)
 
