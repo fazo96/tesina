@@ -56,22 +56,3 @@ Un ente potrebbe voler bloccare l'accesso alla rete Tor all'interno della propri
 Un limite di questo tipo è però facilmente aggirabile tramite l'utilizzo di __bridge node (bridge relay)__, ovvero dei __nodi Tor non pubblici__. __Tor è software libero__, di conseguenza __chiunque può aprire un proprio (bridge) relay__ e __accedere alla rete da luoghi che bloccano i nodi pubblici attraverso di esso__.
 
 Purtroppo __non è possibile bloccare completamente l'accesso a Tor senza applicare enormi, irrealistiche restrizioni all'accesso a internet__.
-
-## Punti deboli
-
-Tor presenta una serie di punti deboli che vanno considerati da ogni utilizzatore del programma:
-
-- Gli __exit node__ possono leggere tutto il traffico di tutti gli utenti tor che li usano agendo effettivamente da __man in the middle__ per la natura stessa del protocollo
-- Tor viene convenzionalmente usato per mascherare l'origine del traffico HTTP, però un utente inesperto potrebbe __abilitare vari plugin del browser__ che sono in grado di __comunicare in rete liberamente__ (ad esempio __Adobe Flash__) e dunque finirebbero per __contattare direttamente il destinatario senza passare per Tor__ rendendo potenzialmente vani i tentativi di preservare l'anonimato
-- Un sito web potrebbe includere tra i propri script delle subroutine in grado di __ottenere informazioni sul sistema client__ compromettendo l'anonimato
-- Un utente potrebbe __lasciare indizi sulla propria identità__ durante la normale navigazione sul web tramite Tor
-
-Queste considerazione non comprendono la possibilità di attacchi mirati al controllo della rete Tor che rischierebbero di compromettere l'anonimato e la privacy di tutti gli utenti.
-
-Inoltre, la rete di Tor è __estremamente lenta__ perchè:
-- ogni nodo deve sottoporre ogni pacchetto a grande quantità di operazioni di crittografia
-- è impossibile stabilire il contenuto dei pacchetti e dunque è impossibile scartare quelli inutili o deleteri
-- i pacchetti sono incapsulati in numerosi strati crittografici, che aumentano di molto la dimensione dei dati da inviare
-- potrebbe essere necessario ricalcolare spesso il percorso di routing a causa dell'instabilità dei nodi
-
-Per questi motivi è anche possibile __saturare la rete con dati inutili allo scopo di deterrente per gli utenti di Tor__.
