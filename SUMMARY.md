@@ -8,7 +8,7 @@
    * [Contromisure](Tor/contromisure.md)
 * [Bitcoin](Bitcoin/bitcoin.md)
    * [Concetti](Bitcoin/concetti.md)
-   * Incentivi e disincentivi
+   * [Incentivi e disincentivi](Bitcoin/incentivi_e_disincentivi.md)
    * Anonimato
    * Limitazioni e problemi
 
