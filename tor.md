@@ -18,6 +18,7 @@ La rete di Tor usa una topologia a maglia: ogni utente connesso consiste in un _
 ![Step 1](https://www.torproject.org/images/htw1.png)
 
 - Il client Tor di Alice sceglie un percorso per raggiungere la destinazione dei dati.
+- I collegamenti __in verde__ sono __crittografati__ mentre quelli in rosso sono __non necessariamenti protetti__
 
 ![Step 2](https://www.torproject.org/images/htw2.png)
 
@@ -39,11 +40,12 @@ Inoltre:
 
 - A partire dal momento dell'uscita di un pacchetto dalla rete Tor, esso non è più protetto dalla sicurezza della rete ma appare come originato dal __nodo di uscita__ quindi l'identità del __nodo__ mittente è sconosciuta.
 
-Di conseguenza:
+Di conseguenza qualsiasi intercettazione di un pacchetto a metà strada è inutile poichè:
 
-- Qualsiasi operazione di __backtracking__ ovvero di analisi del percorso del pacchetto è inutile poichè il pacchetto originale si trovava __incapsulato in strati crittografici__
-
-
+- il pacchetto originale si trovava __incapsulato in strati crittografici__
+- il sorgente e il destinatario scritti nel __pacchetto intercettato__ sono quelli delle __due estremità del singolo collegamento tra due nodi__, non quelli dell'originale destinatario e sorgente.
+- __solo l'exit node__ sa chi è il vero destinatario del pacchetto.
+- __solo il nodo del primo hop__ sa chi è il vero sorgente del pacchetto.
 
 ## Servizi Nascosti
 
