@@ -9,6 +9,6 @@
 * [Bitcoin](Bitcoin/bitcoin.md)
    * [Concetti](Bitcoin/concetti.md)
    * [Incentivi e disincentivi](Bitcoin/incentivi_e_disincentivi.md)
-   * Anonimato
+   * [Anonimato](Bitcoin/anonimato.md)
    * Limitazioni e problemi
 
