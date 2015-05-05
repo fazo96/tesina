@@ -9,4 +9,5 @@
 * [Bitcoin](Bitcoin/bitcoin.md)
    * Concetti
    * Incentivi e disincentivi
+   * Anonimato
 
