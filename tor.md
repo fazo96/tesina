@@ -47,5 +47,10 @@ Tor presenta una serie di punti deboli che vanno considerati da ogni utilizzator
 
 Queste considerazione non comprendono la possibilità di attacchi mirati al controllo della rete Tor che rischierebbero di compromettere l'anonimato e la privacy di tutti gli utenti.
 
-Inoltre, l'enorme quantità di operazione crittografiche necessarie e di overhead per l'invio dei layer crittografici e dei numerosi hop rende Tor una rete __estremamente lenta__ e __impossibile da controllare__ creando la possibilità di __saturare la rete con dati inutili allo scopo di deterrente per gli utenti di Tor__. 
+Inoltre, la rete di Tor è __estremamente lenta__ perchè:
+- ogni nodo deve sottoporre ogni pacchetto a grande quantità di operazioni di crittografia
+- è impossibile stabilire il contenuto dei pacchetti e dunque è impossibile scartare quelli inutili o deleteri
+- i pacchetti sono incapsulati in numerosi strati crittografici, che aumentano di molto la dimensione dei dati da inviare
+- potrebbe essere necessario ricalcolare spesso il percorso di routing a causa dell'instabilità dei nodi
 
+Per questi motivi è anche possibile __saturare la rete con dati inutili allo scopo di deterrente per gli utenti di Tor__.
