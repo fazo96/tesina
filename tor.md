@@ -6,9 +6,17 @@
 
 > From https://www.torproject.org/
 
-Tor è un software in grado di collegare gli utenti tra di loro in una rete virtuale allo scopo di rendere anonimi gli utenti che navigano il web attraverso di esso.
+Tor è un protocollo e la sua implementazione open source in grado di collegare gli utenti tra loro in una rete virtuale allo scopo di rendere anonimo il loro traffico.
 
-La rete di Tor è a maglia, e ogni utente connesso consiste in un __nodo anche detto relay__. Un nodo può anche fungere da __nodo di uscita (exit node, exit relay)__, ovvero prende i pacchetti originati da altri nodi e li spedisce al reale destinatario fuori dalla rete Tor (ad esempio un sito web).
+## Come funziona
+
+![Step 1](https://www.torproject.org/images/htw1.png)
+![Step 1](https://www.torproject.org/images/htw2.png)
+![Step 1](https://www.torproject.org/images/htw3.png)
+
+## Struttura
+
+La rete di Tor usa una topologia a maglia: ogni utente connesso consiste in un __nodo anche detto relay__. Un nodo può anche fungere da __nodo di uscita (exit node, exit relay)__, ovvero prende i pacchetti originati da altri nodi e li spedisce al reale destinatario fuori dalla rete Tor (ad esempio un sito web).
 
 A partire dal momento dell'uscita di un pacchetto dalla rete Tor, esso non è più protetto dalla sicurezza della rete ma appare come originato dal __nodo di uscita__ quindi l'identità del __nodo__ mittente è sconosciuta.
 
