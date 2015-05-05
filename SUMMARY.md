@@ -11,5 +11,5 @@
    * [Incentivi e disincentivi](Bitcoin/incentivi_e_disincentivi.md)
    * [Anonimato](Bitcoin/anonimato.md)
    * [Limitazioni e problemi](Bitcoin/limitazioni_e_problemi.md)
-* Tails
+* [Tails](tails.md)
 
