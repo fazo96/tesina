@@ -3,6 +3,6 @@
 * [Introduzione](README.md)
 * [Web Moderno](web_moderno.md)
 * [Tor](tor.md)
-   * Funzionamento
+   * [Funzionamento](Tor/funzionamento.md)
 * [Bitcoin](bitcoin.md)
 
