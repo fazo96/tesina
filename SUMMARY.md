@@ -8,4 +8,5 @@
    * [Contromisure](Tor/contromisure.md)
 * [Bitcoin](Bitcoin/bitcoin.md)
    * Concetti
+   * Incentivi e disincentivi
 
