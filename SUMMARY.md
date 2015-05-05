@@ -10,4 +10,5 @@
    * Concetti
    * Incentivi e disincentivi
    * Anonimato
+   * Limitazioni e problemi
 
