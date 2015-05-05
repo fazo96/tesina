@@ -5,6 +5,6 @@
 * [Tor](Tor/tor.md)
    * [Come si usa](Tor/come_si_usa.md)
    * [Limitazioni e Problemi](Tor/limitazioni_e_problemi.md)
-   * Contromisure
+   * [Contromisure](Tor/contromisure.md)
 * [Bitcoin](bitcoin.md)
 
