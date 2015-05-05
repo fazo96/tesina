@@ -41,7 +41,7 @@ Un proof of work consiste semplicemente nel trovare un __valore__ il cui __hash 
 
 Esempi:
 
-| Valore | Hash (Troncato)|
+| Valore | SHA-256 (Troncato)|
 | -- | -- |
 | test | 9f86d081884c7d65... |
 | valore_di_esempio | a9a23159b7c4555b... |
