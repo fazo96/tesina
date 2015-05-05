@@ -1,2 +1,0 @@
-# Limitazioni e problemi
-
