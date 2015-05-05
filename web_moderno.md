@@ -1,7 +1,4 @@
-# La raccolta dati del Web 2.0
-
-
-## Le origini dei siti web
+## Dalle origini al Web 2.0
 
 Quando __Internet__ è stato creato, il protocollo __HTTP__ (utilizzato per visitare le pagine web) è stato pensato per trasferire dei semplici __ipertesti__ (da qui il nome _Hyper Text Transfer Protocol_) ma con l'enorme, rapida evoluzione del web il protocollo si è evoluto per supportare l'invio di qualsiasi tipo di file.
 
@@ -18,9 +15,9 @@ Questi script possono inviare numerosi dati riguardo la visita al sito, in parti
 
 ## Persistenza
 
-Gli script possono istruire i browser web a salvare delle informazioni o, se presenti, spedirle al server (cookie) permettendogli di riconoscere l'utente anche durante le prossime visite.
+Gli script possono istruire i browser web a salvare delle informazioni o, se presenti, spedirle al server (__cookie__) permettendogli di __riconoscere l'utente anche durante le prossime visite__.
 
-Grazie alla persistenza, i colossi dietro ai più visitati siti web possono profilare gli utenti, analizzando il loro comportamento.
+Grazie alla persistenza, i server dietro ai più visitati siti web possono profilare gli utenti, analizzando il loro comportamento.
 
 La collaborazione tra i diversi colossi del web tra cui __Facebook, Google, Microsoft eccetera__ e la loro __integrazione con la maggior parte dei siti web__ consente a loro di __tracciare ogni attività online di ogni utente che utilizza questi servizi__.
 
@@ -32,3 +29,9 @@ Ci sono numerosi motivi per questa raccolta dati:
 - __Vendita dei dati:__ i colossi possono vendere dati riguardo, ad esempio, l'interesse degli utenti verso un prodotto piuttosto che un altro
 - __Studio del mercato:__ analizzando le mode e le discussioni sociali è possibile analizzare o addirittura prevedere svolte nel mercato di certe categorie o brand di prodotti
 - __Correlazioni tra soggetti apparentemente indipendenti__, ad esempio si può scoprire che un utente di Facebook è interessato anche a prodotti Apple, piazzando ulteriori pubblicità mirate
+
+## Privacy e controversie
+
+Questa raccolta dati diventa problematica quando gli utenti __si rendono conto__ che le loro __conversazioni private__ effettuate tramite Facebook, Twitter, WhatsApp, eccetera __non sono effettivamente private.__
+
+Soprattutto dopo __le scandalose rivelazioni di Edward Snowden riguardo le attività della NSA Statunitense__ molti utenti __hanno deciso di rivolgersi ad alternative sicure dei servizi che utilizzavano regolarmente.__
