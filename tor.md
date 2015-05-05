@@ -1,5 +1,7 @@
 # Tor
 
+![Tor Logo](http://upload.wikimedia.org/wikipedia/commons/0/09/Tor-logo-2011-shaded.svg)
+
 Tor è un software in grado di collegare gli utenti tra di loro in una rete virtuale allo scopo di rendere anonimi gli utenti che navigano il web attraverso di esso.
 
 La rete di Tor è a maglia, e ogni utente connesso consiste in un __nodo anche detto relay__. Un nodo può anche fungere da __nodo di uscita (exit node, exit relay)__, ovvero prende i pacchetti originati da altri nodi e li spedisce al reale destinatario fuori dalla rete Tor (ad esempio un sito web).
