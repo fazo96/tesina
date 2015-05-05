@@ -35,3 +35,12 @@ Ci sono numerosi motivi per questa raccolta dati:
 Questa raccolta dati diventa problematica quando gli utenti __si rendono conto__ che le loro __conversazioni private__ effettuate tramite Facebook, Twitter, WhatsApp, eccetera __non sono effettivamente private.__
 
 Soprattutto dopo __le scandalose rivelazioni di Edward Snowden riguardo le attività della NSA Statunitense__ molti utenti __hanno deciso di rivolgersi ad alternative sicure dei servizi che utilizzavano regolarmente.__
+
+Una semplice ricerca sul Web riguardo a tutto ciò porta a scoprire l'esistenza di numerose soluzioni per ridurre questa continua fornitura di dati dai nostri browser ai proprietari dei servizi che usiamo e le pubblicità mirate che vediamo come:
+
+- __Ghostery__ e __disconnect.me__ per evitare di immagazzinare __cookie__ inutili per noi ma utili per le corporazioni che tracciano le nostre attività
+- __AdBlock__ per eliminare o ridurre le pubblicità
+
+In particolare tramite il plugin __Ghostery__, disponibile per tutti i browser web più usati, è possibile vedere le informazioni di tracciamento che il nostro browser invia ai server a cui ci colleghiamo ogni giorno e impedirne l'invio.
+
+__Per provare le affermazioni fatte in questo documento__ è infatti sufficiente installare __Ghostery__ e, seguendo le istruzioni su http://ghostery.com/it/, collegarsi a uno o più social network o servizio come Google, LinkedIn, Facebook, notando __immediatamente__ lo scambio di dati di tracciamento tra noi e i server di questi servizi.
