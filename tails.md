@@ -8,11 +8,13 @@
 >
 > From https://tails.boum.org/
 
+Tails [è il sistema operativo preferito da Edward Snowden](http://www.wired.com/2014/04/tails/)
+
 ## Funzionalità
 
-Grazie alla distribuzione __GNU/Linux __ denominata __Tails__, è possibile utilizzare qualsiasi computer __senza lasciare traccia su di esso__, navigando la rete __esclusivamente attraverso Tor__ proteggendo dunque il proprio traffico e la propria identità.
+Grazie alla distribuzione __GNU/Linux__ denominata __Tails__, è possibile utilizzare qualsiasi computer __senza lasciare traccia su di esso__, navigando la rete __esclusivamente attraverso Tor__ proteggendo dunque il proprio traffico e la propria identità.
 
-Tails offre anche strumenti utili per rimuovere tracce da dispositivi di memorizzazione e crittografare files o il contentuto di un'email.
+Tails offre anche strumenti utili per rimuovere tracce da dispositivi di memorizzazione e crittografare files o il contentuto di un'email, in particolare il software di crittografia __GPG__, il client Bitcoin __Electrum__ e il client mail __Claws__ che supporta crittografia tramite __GPG__. Tails include anche __TrueCrypt__ che permette di crittografare i dispositivi di memorizzazione.
 
 ## Funzionamento
 
@@ -23,5 +25,3 @@ Il sistema operativo Tails può essere eseguito da:
 - Schede SD o micro SD
 
 L'immagine disco del sistema operativo contiene tutto il necessario per collegarsi a Internet e i driver necessari per funzionare sulla maggior parte dei computer.
-
-Tails [è il sistema operativo preferito da Edward Snowden](http://www.wired.com/2014/04/tails/)

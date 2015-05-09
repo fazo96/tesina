@@ -26,7 +26,14 @@ Esempi:
 
 Essendo l'__hashing__ una procedura __non prevedibile__, l'unico modo per trovare un hash che soddisfi i requisiti è __procedere casualmente__.
 
-Dunque il tempo richiesto per calcolare __miliardi di hash__ fino a trovare un valore che soddisfi i __requisiti__ è immenso, rendendo il __proof-of-work__ una procedura inventata per essere lenta, in modo da __provare__ che numerosi minuti sono stati usati.
+Dunque il tempo richiesto per calcolare __miliardi di hash__ fino a trovare un valore che soddisfi i __requisiti__ è immenso, rendendo il __proof-of-work__ una procedura inventata per essere lenta, in modo da __provare__ che numerosi minuti sono stati spesi per effettuare un'operazione e dunque impedire l'invio di immense quantità di operazioni.
 
 ### Bitcoin mining come reddito principale
 
+Nel tempo, il numero di transazione da validare è aumentato sempre di più, ma anche il numero e la potenza di calcolo offerta dai miners è aumentata: ecco perchè sono nate le __mining pool__, delle organizzazione che raggruppano i miners in modo da produrre __enormi quantità di bitcoin in pochissimo tempo__, dividendolo __in base alla percentuale di calcoli svolti da ogni miner__.
+
+I vantaggi principali sono __la percezione di piccole quantità di bitcoin molto spesso__ da parte di ogni miner, invece che __percepire enormi quantità ma dopo anni e anni di lavoro__, poichè un singolo computer è estremamente lento in questa procedura, e percepirebbe un guadagno dalla rete enorme ma solo dopo enormi quantità di tempo.
+
+In casi in cui la grande quantità di corrente elettrica necessaria per il mining e i costi aggiuntivi di manutenzione e aria condiziata non superino i guadagni, il mining può essere un'attività in grado di generare profitti.
+
+Nel passato ci sono stati casi in cui dei software miner sono stati inclusi nel codice di alcuni popolari programmi gratuiti come __uTorrent__ e il videogioco __Team Fortress 2__. Questo ha permesso ai malfattori di guadagnare soldi sfruttando la potenza di calcolo degli utenti di questi software (ovviamente in maniera illecita).
