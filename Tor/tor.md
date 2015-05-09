@@ -48,3 +48,13 @@ Di conseguenza qualsiasi intercettazione di un pacchetto a metà strada è inuti
 - __solo il nodo del primo hop__ sa chi è il vero sorgente del pacchetto.
 
 ## Servizi Nascosti
+
+Tor offre anche la possibilità di __gestire un servizio nascosto__ accessibile __esclusivamente tramite Tor__. Gli __hidden services__ di __Tor__ sono accessibile tramite la rete Tor attraverso il loro __onion address__, un indirizzo che permette ai pacchetti di essere instradati alla corretta destinazione.
+
+Un __hidden service__ può essere hostato anche dietro un __NAT__ o un __Firewall__ a patto che la macchina che lo offre sia connessa alla rete __Tor__.
+
+### WWW To Onion Gateway
+
+Esistono dei servizi denominati __WWW to Onion gateway__ che permettono agli utenti di accedere ai servizi __.onion__ attraverso una normale navigazione __web__. Essi agiscono da __proxy__ in modo da contattare i servizi attraverso __Tor__ per conto dell'utente.
+
+Ovviamente in questo modo l'effetto protettivo di __Tor__ viene annullato e l'utente è completamente tracciabile, però __Tor__ non è necessariamente richiesto sul computer dell'utente.

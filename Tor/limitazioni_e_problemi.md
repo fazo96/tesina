@@ -18,3 +18,9 @@ Inoltre, la rete di Tor è __estremamente lenta__ perchè:
 - potrebbe essere necessario ricalcolare spesso il percorso di routing a causa dell'instabilità dei nodi
 
 Per questi motivi è anche possibile __saturare la rete con dati inutili allo scopo di deterrente per gli utenti di Tor__.
+
+### Exit node monitoring
+
+Operando un __Exit Node__ è possibile catturare tutto il traffico degli utenti __Tor__ che usano poichè come visto prima, __Tor__ protegge il traffico solo fino all'__exit node__. Se il traffico dall'__exit node__ alla destinazione finale non è crittografato, l'__exit node__ può leggere il traffico senza problemi.
+
+Un utente inesperto potrebbe dunque inviare dati importanti in chiaro attraverso __Tor__: la sorgente di questi dati sarebbe anonima, ma il contenuto potrebbe essere letto da chiunque si trovi nel percorso tra __exit node__ e __destinatario__, __exit node compreso__.

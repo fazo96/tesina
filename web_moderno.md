@@ -13,6 +13,8 @@ Questi script possono inviare numerosi dati riguardo la visita al sito, in parti
 - le pagine che sono state visitate e per quanto tempo
 - le righe che sono state copiate
 
+Con l'importanza crescente di un metodo per inviare dati importanti con sicurezza, il protocollo __SSL__ (successivamente sostituito da __TLS__) è stato creato, e con esso lo standard __HTTPs__ che permette di utilizzare __HTTP__ in maniera sicura incapsulando i pacchetti all'interno di pacchetti __SSL__.
+
 ## Persistenza
 
 Gli script possono istruire i browser web a salvare delle informazioni o, se presenti, spedirle al server (__cookie__) permettendogli di __riconoscere l'utente anche durante le prossime visite__.
@@ -43,4 +45,4 @@ Una semplice ricerca sul Web riguardo a tutto ciò porta a scoprire l'esistenza 
 
 In particolare tramite il plugin __Ghostery__, disponibile per tutti i browser web più usati, è possibile vedere le informazioni di tracciamento che il nostro browser invia ai server a cui ci colleghiamo ogni giorno e impedirne l'invio.
 
-__Per provare le affermazioni fatte in questo documento__ è infatti sufficiente installare __Ghostery__ e, seguendo le istruzioni su http://ghostery.com/it/, collegarsi a uno o più social network o servizio come Google, LinkedIn, Facebook, notando __immediatamente__ lo scambio di dati di tracciamento tra noi e i server di questi servizi.
+__Per provare tutto ciò__ è infatti sufficiente installare __Ghostery__ e, seguendo le istruzioni su http://ghostery.com/it/, collegarsi a uno o più social network o servizio come Google, LinkedIn, Facebook, notando __immediatamente__ lo scambio di dati di tracciamento tra noi e i server di questi servizi.
