@@ -32,7 +32,7 @@ Ci sono numerosi motivi per questa raccolta dati:
 - __Studio del mercato:__ analizzando le mode e le discussioni sociali è possibile analizzare o addirittura prevedere svolte nel mercato di certe categorie o brand di prodotti
 - __Correlazioni tra soggetti apparentemente indipendenti__, ad esempio si può scoprire che un utente di Facebook è interessato anche a prodotti Apple, piazzando ulteriori pubblicità mirate
 
-## Privacy e controversie
+## Opinione pubblica: privacy e controversie
 
 Questa raccolta dati diventa problematica quando gli utenti __si rendono conto__ che le loro __conversazioni private__ effettuate tramite Facebook, Twitter, WhatsApp, eccetera __non sono effettivamente private.__
 
