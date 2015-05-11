@@ -16,3 +16,9 @@ Dalle suddette informazioni possiamo dedurre che:
 - ovviamente, per generare una transazione da un portafoglio, essa va comunicata alla rete e __firmata digitalmente__ con la __chiave privata__ associata al __portafoglio__.
 - le transazioni vengono diffuse e validate da ogni nodo. Se considerate valide (ovvero il portafoglio sorgente ha sufficienti bitcoin), vengono aggiunte alla __blockchain__ da tutta la rete.
 - la quantità di bitcoin in un portafoglio è calcolabile semplicemente leggendo tutte le transazioni che lo riguardano in ordine cronologico
+
+Esistono inoltre:
+
+- __hardware wallet__, ovvero portafogli contenuti in un dispositivo hardware come una chiavetta USB, che possono essere usati solo mentre sono connessi alla macchina
+- __fondi condivisi__, ovvero dei fondi che richiedono la firma digitale di __multipli portafogli__ per essere trasferiti
+- __
