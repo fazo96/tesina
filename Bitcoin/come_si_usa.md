@@ -6,7 +6,7 @@ Per usare Bitcoin è necessario:
 1. scaricare un client (erroneamente chiamato __wallet__ in molti casi), ovvero un'implementazione software del protocollo.
     - esistono client disponibili per ogni piattaforma comune, come android, iOS, Windows, OSX eccetera
 1. usando il client:
-    1. creare un wallet (inteso come )
+    1. creare un __wallet__
     1. cominciare a effettuare transazioni
 
 Da notare che _la maggior parte_ dei client, per funzionare, richiedono il download dell'intera __blockchain__ dalla rete, che al momento della scrittura di questo documento equivale a __33 GB__.
