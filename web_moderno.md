@@ -43,6 +43,12 @@ Una semplice ricerca sul Web riguardo a tutto ciò porta a scoprire l'esistenza 
 - __Ghostery__ e __disconnect.me__ per evitare di immagazzinare __cookie__ inutili per noi ma utili per le corporazioni che tracciano le nostre attività
 - __AdBlock__ per eliminare o ridurre le pubblicità
 
-In particolare tramite il plugin __Ghostery__, disponibile per tutti i browser web più usati, è possibile vedere le informazioni di tracciamento che il nostro browser invia ai server a cui ci colleghiamo ogni giorno e impedirne l'invio.
+### Ghostery
+
+Tramite il plugin __Ghostery__, disponibile per tutti i browser web più usati, è possibile:
+
+- vedere le informazioni di tracciamento che vengono inviate ai server dei vari siti web che utilizziamo
+- conoscere le aziende a cui sono destinate tali informazioni
+- bloccare l'invio delle informazioni di tracciamento
 
 __Per provare tutto ciò__ è infatti sufficiente installare __Ghostery__ e, seguendo le istruzioni su http://ghostery.com/it/, collegarsi a uno o più social network o servizio come Google, LinkedIn, Facebook, notando __immediatamente__ lo scambio di dati di tracciamento tra noi e i server di questi servizi.
