@@ -13,7 +13,10 @@ html
 
       section
         h2 Anonimato nella rete Internet
+        img.anon(src="http://fc08.deviantart.net/fs70/f/2014/151/2/9/anonymous_security_starter_handbook_by_m4xm0u53-d7kgfk5.png")
         h3 di Enrico Fasoli
+        p la presente non è l'edizione definitiva della presentazione
+        a(href="http://fazo96.gitbooks.io/anonimato-su-internet/") fazo96.gitbooks.io/anonimato-su-internet
 
       section
         h2 Web 2.0
@@ -68,7 +71,9 @@ html
           li è accessibile grazie a <b>Tor Browser</b>
 
       section
-        img(src="http://media.tumblr.com/tumblr_lmupioyU7M1qznjpp.png")
+        img.btc(src="http://www.canbike.org/public/images/030114/Bitcoin_Logo_Horizontal_Light-4800px.png")
+        //img.btclogo(src="http://bitstickers.net/wp-content/uploads/2014/02/btc-mono-ring-orange.jpg")
+        //img(src="http://media.tumblr.com/tumblr_lmupioyU7M1qznjpp.png")
         h3.bullet la prima valuta digitale significativa
         ul
           li permette di <b>effettuare transazioni libere e anonime</b>
@@ -89,7 +94,6 @@ html
           li ogni utente è identificato da un file che agisce da <b>chiave</b> per autenticarsi alla rete
 
       section
-        
         img.btsync(src="http://hsto.org/getpro/habr/post_images/2d6/d88/412/2d6d88412032ce8765048bc92eb17a94.png")
         img.syncthing(src="http://cdn-www.xda-developers.com/wp-content/uploads/2014/10/logo-text-256.png")
         h3.bullet servizi di condivisione file decentralizzati
@@ -101,61 +105,7 @@ html
           li <b>Syncthing</b> si rivolge agli utenti più esperti ma è <b>libero</b> e offre funzionalità aggiuntive
 
       section
-        h2 Tails
+        img.tails(src="https://tails.boum.org/contribute/how/promote/material/logo/tails-logo-flat.svg")
         h3.bullet il sistema operativo sicuro che non lascia tracce
-
-      section
-        h2 Keyboard Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a>
-
-      section
-        h2 Touch Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
-
-      section
-        h2 Responsive Slides
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
-
-      section
-        h2 Bullet List
-        h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
-        ul
-          li Bullet 1
-          li Bullet 2
-          li Bullet 3
-
-      section
-        h2 Syntax Highlighting
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-        pre
-          code.language-javascript.
-            bespoke.from('article', [
-              classes(),
-              keys(),
-              touch(),
-              bullets('li, .bullet')
-            ]);
-
-      section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
-
-      section
-        h2.bullet Just the beginning...
-        br
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-          li Edit JavaScript in <em>'src/scripts/main.js'</em>
-        br
-        ul
-          li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
 
     script(src='build/build.js')
