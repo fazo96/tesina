@@ -35,4 +35,6 @@ I più diffusi sistemi di Cloud Storage decentralizzati sono __Bittorrent Sync__
 
 __Bittorrent Sync__ (anche detto __BTSync__) è un software proprietario di __Bittorrent Incorporated__ che implementa il __Cloud Storage decentralizzato__.
 
-E' disponibile per numerose piattaforme desktop e mobile.
+Il software è disponibile per __Windows__, __GNU/Linux__, __OSX__, __Android__, __iOS__, __Windows Phone__ e __Kindle Fire__.
+
+Esso è però considerato dalla comunità come una __soluzione parziale__ al problema del Cloud Storage, perchè Bittorrent Sync è una __tecnologia proprietaria, chiusa__ e dunque __potenzialmente inaffidabile__ dal punto di vista __della sicurezza e della privacy__.
