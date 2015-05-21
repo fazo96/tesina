@@ -14,8 +14,8 @@
    * [Limitazioni e problemi](Bitcoin/limitazioni_e_problemi.md)
 * [Messaggistica anonima](Messaggistica/introduzione.md)
   * [Bitmessage: l'alternativa sicura alle Email](Messaggistica/bitmessage.md)
-  * [Tox: il servizio di chat blindato](Messaggistica/tox.md)
 * [Condividere file con sicurezza](FileSharing/file_sharing.md)
   * [Syncthing, il progetto della community](FileSharing/Syncthing.md)
 * [Sistema operativo sicuro: Tails](tails.md)
+* [Freenet: la rete libera](freenet.md)
 
