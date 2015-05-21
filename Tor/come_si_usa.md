@@ -25,5 +25,12 @@ I componenti aggiuntivi inclusi sono:
 
 Per gestire il proprio servizio web nascosto, è sufficiente __una macchina GNU/Linux connessa alla rete Tor__, anche se si trova dietro __firewall o altri sistemi__.
 
-TODO
+Configurando correttamente __Tor__, è possibile istruirlo a ridirezionare le connessioni in ingresso tramite la sua rete a una certa porta sul proprio dispositivo, creando un canale di comunicazione tra __Tor__ e il __Servizio__.
+
+Gestire un servizio anonimo però __non è semplice__ soprattutto per i __problemi di sicurezza__ tra cui:
+- __Correlation attack__ se un servizio è accessibile anche senza __Tor__
+- errori di configurazione e informazioni inviate per sbaglio nei report di errore del server
+- __analisi statistiche di uptime__ e confronto
+- __errori umani__ vari tra cui informazioni chiave sulla segretezza incluse direttamente nel sito
+
 
