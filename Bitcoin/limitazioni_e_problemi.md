@@ -20,7 +20,8 @@ Ma sempre a causa degli __incentivi__ nel mantenere la rete funzionante, è diff
 
 Il concetto di Bitcoin dipende interamente dalla crittografia asimmetrica, di conseguenza tutti i problemi di sicurezza legati al
 
-# Altri problemi di sicurezza
-
 ## Il furto del portafoglio
 
+La maggior parte dei __client__ memorizza il portafoglio in un semplice file __wallet.dat__. Se qualcuno dovessere copiare questo file, potrebbe trasferire l'intera somma contenuta nel portafoglio in un'altro portafoglio!
+
+Una possibile soluzione è, __tramite Electrum__, non memorizzare il portafoglio ma rigenerarlo ogni volta usando una __passphrase__ (portafoglio parametrico). Ovviamente, la __passphrase__ deve essere segreta e sicura!
