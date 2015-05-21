@@ -16,6 +16,6 @@ Freenet esiste dal __marzo 2000__ ed è tutt'ora in sviluppo.
 
 ## Come funziona
 
-__Freesite__ usa un modello di comunicazione __molto simile a quello di Tor__ (dettagliato nel capitolo dedicato a Tor), crittografando tutte le comunicazioni. Inoltre grazie alla sua __decentralizzazione__, combatte efficacemente la censura, e non permette di __origliare__ sulle comunicazioni.
+__Freenet__ usa un modello di comunicazione __molto simile a quello di Tor__ (dettagliato nel capitolo dedicato a Tor), crittografando tutte le comunicazioni. Inoltre grazie alla sua __decentralizzazione__, combatte efficacemente la censura, e non permette di __origliare__ sulle comunicazioni.
 
 A partire dalla versione __0.7__, __Freenet__ può essere configurato per __nascondere attivamente__ il suo utilizzo, promuovendo __l'anonimato__ e la lotta contro la __censura__.
