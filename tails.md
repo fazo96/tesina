@@ -1,4 +1,4 @@
-[!Tails](https://tails.boum.org/contribute/how/promote/material/logo/tails-logo-flat.svg)
+![Tails](https://tails.boum.org/contribute/how/promote/material/logo/tails-logo-flat.svg)
 
 >Tails is a live operating system, that you can start on almost any computer from a DVD, USB stick, or SD card. It aims at preserving your privacy and anonymity, and helps you to:
 
