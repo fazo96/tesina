@@ -1,4 +1,4 @@
-## Syncthing
+![Syncthing](https://syncthing.net/images/logo-horizontal.svg)
 
 __Syncthing__ è un __Software Libero__ pubblicato su [syncthing.net](http://syncthing.net) sotto licenza __Mozilla Public License Versione 2.0__. Sono disponibili distribuzioni per __Windows__, __OSX__, __GNU/Linux__, __BSD__, __Solaris__ e __Android__.
 
