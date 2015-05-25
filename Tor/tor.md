@@ -12,19 +12,19 @@ Tor è un protocollo e la sua implementazione open source in grado di collegare 
 
 La rete di Tor usa una topologia a maglia: ogni utente connesso consiste in un __nodo anche detto relay__. Un nodo può anche fungere da __nodo di uscita (exit node, exit relay)__, ovvero prende i pacchetti originati da altri nodi e li spedisce al reale destinatario fuori dalla rete Tor (ad esempio un sito web).
 
+![Step 1](https://www.torproject.org/images/htw1.png)
+
 - Alice recupera la lista dei __nodi__ della rete Tor da un __directory server__.
 - Alice si collega direttamente a uno dei __nodi__ della rete Tor.
 
-![Step 1](https://www.torproject.org/images/htw1.png)
+![Step 2](https://www.torproject.org/images/htw2.png)
 
 - Il client Tor di Alice sceglie un percorso per raggiungere la destinazione dei dati.
 - I collegamenti __in verde__ sono __crittografati__ mentre quelli in rosso sono __non necessariamenti protetti__
 
-![Step 2](https://www.torproject.org/images/htw2.png)
-
-- Il percorso può cambiare per destinazioni diverse, al fine di rendere ancora più difficile il tracciamento
-
 ![Step 3](https://www.torproject.org/images/htw3.png)
+
+- Il percorso può cambiare in qualsiasi momento al fine di rendere ancora più difficile il tracciamento
 
 ### Perché è sicuro e anonimo
 
@@ -40,21 +40,29 @@ Inoltre:
 
 - A partire dal momento dell'uscita di un pacchetto dalla rete Tor, esso non è più protetto dalla sicurezza della rete ma appare come originato dal __nodo di uscita__ quindi l'identità del __nodo__ mittente è sconosciuta.
 
-Di conseguenza qualsiasi intercettazione di un pacchetto a metà strada è inutile poichè:
+Di conseguenza qualsiasi intercettazione di un pacchetto a metà strada del percorso nella rete Tor è inutile poichè:
 
-- il pacchetto originale si trovava __incapsulato in strati crittografici__
-- il sorgente e il destinatario scritti nel __pacchetto intercettato__ sono quelli delle __due estremità del singolo collegamento tra due nodi__, non quelli dell'originale destinatario e sorgente.
-- __solo l'exit node__ sa chi è il vero destinatario del pacchetto.
-- __solo il nodo del primo hop__ sa chi è il vero sorgente del pacchetto.
+- il pacchetto si trova __incapsulato almeno uno strato crittografico__
+- il sorgente e il destinatario scritti nel __pacchetto intercettato__ sono quelli delle __due estremità del singolo collegamento tra due nodi Tor__, non quelli dell'originale destinatario e sorgente.
+- __solo l'exit node__ sa chi è il vero _destinatario_ del pacchetto.
+- __solo il nodo del primo hop__ sa chi è il vero _mittente_ del pacchetto.
+
+__Attenzione__ alle intercettazioni dal _nodo di uscita_ alla _destinazione finale_ del pacchetto:
+
+- il pacchetto si trova tra __il nodo di uscita__ e la __destinazione finale__
+- il pacchetto __non è più incapsulato nella crittografia di Tor__
+- se il pacchetto __non dispone di ulteriori strati di sicurezza come TLS, OpenSSL o un sistema custom__ allora:
+    - chiunque può leggere il pacchetto
+    - il __nodo di uscita__ può _leggere_ ed _alterare_ il pacchetto
 
 ## Servizi Nascosti
 
-Tor offre anche la possibilità di __gestire un servizio nascosto__ accessibile __esclusivamente tramite Tor__. Gli __hidden services__ di __Tor__ sono accessibile tramite la rete Tor attraverso il loro __onion address__, un indirizzo che permette ai pacchetti di essere instradati alla corretta destinazione.
+Tor offre anche la possibilità di __gestire un servizio nascosto__ accessibile __esclusivamente tramite Tor__. Gli __hidden services__ di __Tor__ sono raggiungibili tramite la rete Tor attraverso il loro __onion address (.onion)__, un indirizzo che permette ai pacchetti di essere instradati alla corretta destinazione.
 
-Un __hidden service__ può essere hostato anche dietro un __NAT__ o un __Firewall__ a patto che la macchina che lo offre sia connessa alla rete __Tor__.
+Un __hidden service__ può essere mantenuto anche da dietro un qualsiasi __NAT__, __Firewall__ o sistema di sicurezza a patto che la macchina che lo ospita sia connessa alla rete __Tor__.
 
 ### WWW To Onion Gateway
 
-Esistono dei servizi denominati __WWW to Onion gateway__ che permettono agli utenti di accedere ai servizi __.onion__ attraverso una normale navigazione __web__. Essi agiscono da __proxy__ in modo da contattare i servizi attraverso __Tor__ per conto dell'utente.
+Esistono dei servizi denominati __WWW to Onion gateway__ che permettono agli utenti di accedere ai servizi __.onion__ attraverso una normale navigazione __web__. Essi agiscono da __proxy web__ in modo da contattare i servizi attraverso __Tor__ per conto dell'utente.
 
-Ovviamente in questo modo l'effetto protettivo di __Tor__ viene annullato e l'utente è completamente tracciabile, però __Tor__ non è necessariamente richiesto sul computer dell'utente.
+Ovviamente in questo modo i benefici di __Tor__ vengono annullati e l'utente è completamente tracciabile, in compenso però __Tor__ non è richiesto sul computer dell'utente.
