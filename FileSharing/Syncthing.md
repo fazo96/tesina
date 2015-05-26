@@ -37,4 +37,8 @@ __BEP__ utilizza __TCP__ per comunicare e __TLS__ per crittografia e autenticazi
 
 ### Problemi di connessione
 
-Spesso i dispositivi possono trovarsi dietro __NAT__ e/o __Firewall__. Syncthing include delle tecniche basilari di _NAT Trasversal_, ma per essere sicuri la cosa migliore è posizionare i dispositivi da sincronizzare temporaneamente nella stessa rete locale in modo da essere sicuri che sincronizzino, oppure utilizzare un terzo dispositivo 
+Spesso i dispositivi possono trovarsi dietro __NAT__ e/o __Firewall__.
+
+Syncthing include delle tecniche basilari di _NAT Traversal_, ma per comunicare uno dei due interlocutori deve poter ricevere __connessioni in ingresso__.
+
+Dunque, per avere la totale certezza che i dispositivi comunichino, è necessario posizionarli temporaneamente nella stessa rete locale, oppure utilizzare un terzo dispositivo in grado di ricevere __connessioni in ingresso__.

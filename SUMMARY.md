@@ -15,7 +15,7 @@
 * [Messaggistica anonima](Messaggistica/introduzione.md)
   * [Bitmessage: l'alternativa sicura alle Email](Messaggistica/bitmessage.md)
 * [Condividere file con sicurezza](FileSharing/file_sharing.md)
-  * [Syncthing, il progetto della community](FileSharing/Syncthing.md)
-* [Sistema operativo sicuro: Tails](tails.md)
-* [Freenet: la rete libera](freenet.md)
+  * [Syncthing](FileSharing/Syncthing.md)
+* [Tails, il Sistema Operativo sicuro](tails.md)
+* [Freenet, la rete libera](freenet.md)
 

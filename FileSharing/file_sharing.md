@@ -1,4 +1,4 @@
-# Il Cloud Storage
+# Cloud Storage
 
 Con __Cloud Storage__ si intende l'_immagazzinare dei dati in remoto_, utilizzando _un servizio offerto da una terza parte_. Questo sistema presenta molteplici vantaggi:
 
@@ -9,14 +9,14 @@ Con __Cloud Storage__ si intende l'_immagazzinare dei dati in remoto_, utilizzan
 
 I più diffusi servizi di __Cloud Storage__ sono __Google Drive__ e __Dropbox__.
 
-## Il problema del Cloud Storage
+## Vulnerabilità e problemi
 
 Questa tecnologia presenta anche degli svantaggi:
 
-- è necessario affidare le proprie informazioni a __una terza parte__, facendo emergere problematiche di __privacy__, __sicurezza__ e __fiducia__
-- vi sono spesso limiti di __spazio__ o di __utilizzo__ ed è necessario pagare per alleviarli o rimuoverli
-- non sempre è disponibile una buona connessione a internet
-- in caso di fallimento dell'infratruttura della terza parte, __i dati o la loro accessibilità potrebbe compromettersi__
+- è necessario affidare le proprie informazioni a __una terza parte__, facendo emergere problematiche di __privacy__, __sicurezza__ e __fiducia__;
+- vi sono spesso limiti di __spazio__ o di __utilizzo__ ed è necessario pagare per alleviarli o rimuoverli;
+- non sempre è disponibile una buona connessione a internet;
+- in caso di fallimento dell'infrastruttura della terza parte, __i dati o la loro accessibilità potrebbe compromettersi__.
 
 ## La soluzione: i sistemi decentralizzati
 
@@ -26,10 +26,10 @@ La maggior parte delle problematiche del __Cloud Storage__ sono derivate da __ce
     - non esiste il problema del fallimento dell'infrastruttura della terza parte
 - non hanno bisogno di __server__ per conservare le informazioni, perchè
     - i dati sono inviati direttamente da un dispositivo all'altro
-- funzionano in una rete locale non connessa a internet
-- solo limitati solo dalla potenza fisica dei dispositivi e dalla qualità della connessione tra loro
+- funzionano anche in una rete locale non connessa a Internet
+- sono limitati solo dalla _potenza di calcolo_ dei dispositivi e dalla _qualità della connessione_ tra loro
 
-I più diffusi sistemi di Cloud Storage decentralizzati sono __Bittorrent Sync__ e __Syncthing__.
+I più diffusi sistemi di _Cloud Storage_ decentralizzati sono __Bittorrent Sync__ e __Syncthing__.
 
 ### Bittorrent Sync
 
