@@ -26,6 +26,16 @@ La rete di Tor usa una topologia a maglia: ogni utente connesso consiste in un _
 
 - Il percorso può cambiare in qualsiasi momento al fine di rendere ancora più difficile il tracciamento
 
+### Confronto con una VPN
+
+Sul Web è facile trovare molti provider di accesso a __VPN__ che offrono _sicurezza_, _anonimato_, _possibilità_ di superare _filtri_ o _censure_ e velocità di navigazione. Una VPN però, per definizione, non è sicura quanto la rete __Tor__ perchè:
+
+- una __VPN__ è un sistema centralizzato, dunque:
+    - il gestore della __VPN__ può origliare sul traffico e raccogliere informazioni
+    - una __VPN__ (in particolare con __OpenVPN__) è soggetta a diverse _vulnerabilità_ se il gestore non ha le competenze per proteggersi
+- l'accesso alla __VPN__ si basa comunque su un account
+- un servizio __VPN__ per la navigazione è quasi sempre _a pagamento_.
+
 ### Perché è sicuro e anonimo
 
 Quando un nodo decide di spedire un pacchetto fuori dalla rete:
