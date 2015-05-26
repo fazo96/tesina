@@ -73,6 +73,4 @@ Un __hidden service__ può essere mantenuto anche da dietro un qualsiasi __NAT__
 
 ### WWW To Onion Gateway
 
-Esistono dei servizi denominati __WWW to Onion gateway__ che permettono agli utenti di accedere ai servizi __.onion__ attraverso una normale navigazione __web__. Essi agiscono da __proxy web__ in modo da contattare i servizi attraverso __Tor__ per conto dell'utente.
-
-Ovviamente in questo modo i benefici di __Tor__ vengono annullati e l'utente è completamente tracciabile, in compenso però __Tor__ non è richiesto sul computer dell'utente.
+Esistono dei servizi denominati __WWW to Onion gateway__ che permettono agli utenti di accedere ai servizi __.onion__ attraverso una normale navigazione __web__. Essi agiscono da __proxy web__ in modo da contattare i servizi attraverso __Tor__ per conto dell'utente. Ovviamente in questo modo i benefici di __Tor__ vengono annullati e l'utente è completamente tracciabile, in compenso però __Tor__ non è richiesto sul computer dell'utente.

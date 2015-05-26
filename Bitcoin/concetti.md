@@ -7,8 +7,8 @@ Il protocollo Bitcoin consiste in una rete decentralizzata (da ora in poi detta 
 - Una __transazione__ è un trasferimento di denaro: tutte le transazioni vanno validate dalla rete e sono poi aggiunte, se valide, alla __blockchain__.
     - la rete considera valida una __transazione__ solo se il  __portafoglio sorgente__ possiede __sufficienti bitcoin__ per poterli trasferire al __portafoglio destinatario__.
 - un __nodo della rete Bitcoin__ consiste semplicemente in un computer in grado di comunicare con altri membri della rete.
-    - i nodi eseguono il software di una delle implementazioni del protocollo Bitcoin
-    - i nodi collaborano e si fidano delle informazioni ricevute dagli altri nodi solo se possono verificarne la validità indipendentemente. In alternativa, vengono considerate valide le informazioni solo se gran parte della rete le considera valide
+    - i nodi eseguono il software di una delle implementazioni del protocollo Bitcoin.
+    - i nodi collaborano e si fidano delle informazioni ricevute dagli altri nodi solo se possono verificarne la validità indipendentemente. In alternativa, vengono considerate valide le informazioni solo se gran parte della rete le considera valide.
 
 Dalle suddette informazioni possiamo dedurre che: 
 - non esiste alcun tipo di centralizzazione o server se non un __tracker__ usato dai nodi per scoprire gli indirizzi IP degli altri nodi
@@ -19,6 +19,5 @@ Dalle suddette informazioni possiamo dedurre che:
 
 Esistono inoltre:
 
-- __hardware wallet__, ovvero portafogli contenuti in un dispositivo hardware come una chiavetta USB, che possono essere usati solo mentre sono connessi alla macchina
-- __fondi condivisi__, ovvero dei fondi che richiedono la firma digitale di __multipli portafogli__ per essere trasferiti
-- __
+- __hardware wallet__, ovvero portafogli contenuti in un dispositivo hardware come una chiavetta USB, che possono essere usati solo mentre sono connessi alla macchina.
+- __fondi condivisi__, ovvero dei fondi che richiedono la firma digitale di __multipli portafogli__ per essere trasferiti.
