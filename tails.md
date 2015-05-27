@@ -16,6 +16,23 @@ Grazie alla distribuzione __GNU/Linux__ denominata __Tails__, è possibile utili
 
 Tails offre anche strumenti utili per rimuovere tracce da dispositivi di memorizzazione e crittografare files o il contentuto di un'email, in particolare il software di crittografia __GPG__, il client Bitcoin __Electrum__ e il client mail __Claws__ che supporta crittografia tramite __GPG__. Tails include anche __TrueCrypt__ che permette di crittografare i dispositivi di memorizzazione.
 
+### Interfaccia grafica
+
+![Tails Desktop](https://www.linuxquestions.org/questions/attachment.php?attachmentid=18436&d=1431527910)
+- _Immagine:_ Desktop Environment di __Tails OS 1.4__
+
+__Tails__ offre un'interfaccia grafica molto _semplice_ e _spoglia_ usando il popolare __Desktop Environment GNOME__.
+
+Dal desktop è possibile notare:
+- una serie di icone ad _accesso rapido _ per gli strumenti più importanti, tra cui
+    - __Tor Browser__, discusso nella sezione dedicata a __Tor__
+    - __Pidgin__, un software di messaggistica istantanea
+    - un __emulatore di terminale__ per accedere alla Shell
+    - una __GUI__ per __GPG__
+    - il client di posta elettronica __Claws Mail__
+- nella __tray bar__ un'icona per lo stato della connessione alla rete __Tor__ e una per __Claws Mail__
+- un collegamento che porta direttamente alla __Documentazione di Tails__
+
 ## Funzionamento
 
 Il sistema operativo Tails può essere eseguito da:
