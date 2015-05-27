@@ -5,6 +5,9 @@ Il software Tor presenta una interfaccia _a riga di comando (command line)_ che 
 ![man tor](http://i.imgur.com/ML6ZGZQ.png)
 - _Immagine:_ pagina di manuale __UNIX__ parziare per __Tor__.
 
+![tor cmd](http://i.imgur.com/JmXWiTk.png)
+- _Immagine:_ __Tor__ in esecuzione sul mio computer.
+
 Tor permette l'instradamento del traffico nella propria rete offrendo all'utente un __proxy SOCKS__: istruendo le applicazioni di dirigere i propri __socket__ attraverso il __proxy__, il loro traffico passerà per la rete di Tor.
 
 ### Vidalia
