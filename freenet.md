@@ -19,6 +19,8 @@ Freenet esiste dal __marzo 2000__ ed è tutt'ora in sviluppo.
 ![Freenet Screenshot](http://cdn.canadiancontent.net/t/screenshot/750/freenet.jpg)
 - _Immagine:_ __Freenet__ in esecuzione su __Debian Linux__ usando il web browser __Iceweasel__ (il _fork_ di __Firefox__ sviluppato dal team di __Debian__)
 
+Per interfacciarsi a __Freenet__ è necessario un Browser Web. Questo perchè il __client di Freenet__ si limita a recuperare i file __HTML, CSS__ dei __Freesites__ offrendoli tramite un'interfaccia __HTTP__ e accettando, tramite la stessa, richieste __HTTP__ per interagire con i __Freesites__.
+
 ## Come funziona
 
 __Freenet__ usa un modello di comunicazione __molto simile a quello di Tor__ (dettagliato nel capitolo dedicato a Tor), crittografando tutte le comunicazioni. Inoltre grazie alla sua __decentralizzazione__, combatte efficacemente la censura, e non permette di __origliare__ sulle comunicazioni.
