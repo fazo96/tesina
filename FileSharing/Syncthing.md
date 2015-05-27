@@ -27,7 +27,6 @@ Quando i due dispositivi __sono accesi contemporaneamente__ e __sono in grado di
     - gli altri nodi accetteranno modifiche solo dal __Master__.
 - alternativamente, un nodo può essere configurato in __sola lettura__ per una o più cartelle
 
-### Dettagli tecnici
 ### Block Exchange Protocol
 
 Syncthing è un'implementazione del __Block Exchange Protocol (BEP)__, che offre una soluzione al problema della sincronizzazione decentralizzata di una o più cartelle di file tra due o più dispositivi. Questo protocollo è nato e cresciuto insieme a Syncthing.
