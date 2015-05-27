@@ -9,7 +9,7 @@ Tor permette l'instradamento del traffico nella propria rete offrendo all'utente
 
 ![tor cmd](http://i.imgur.com/JmXWiTk.png)
 - _Immagine:_ __Tor__ in esecuzione sul mio computer tramite l'interfaccia a riga di comando, aprendo un __proxy SOCKS__ sulla porta __9050__ (come da impostazione di default)
-    - __NB__: notare la dicitura _"Tor can't help you if you use it wrong!"_ che avvisa l'utente che __Tor non funziona__ se usato con ingenuità.
+- notare la dicitura _"Tor can't help you if you use it wrong!"_ che avvisa l'utente che __Tor non funziona__ se usato con ingenuità.
 
 ### Vidalia
 
