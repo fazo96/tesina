@@ -8,6 +8,9 @@ Tor permette l'instradamento del traffico nella propria rete offrendo all'utente
 
 Essendo __Tor__ un software con interfaccia __a riga di comando__, è stata sviluppata l'interfaccia grafica __Vidalia__ che permette di gestire e configurare __Tor__ senza mai modificare manualmente __file di configurazione__ o utilizzare la __riga di comando__.
 
+![Vidalia](http://i.imgur.com/ZJ4JF7a.png)
+- _Immagine:_ __Vidalia__ in esecuzione sul mio computer usando il sistema operativo __Arch Linux__.
+
 Questa interfaccia è molto apprezzata dagli utenti meno esperti che necessitano di eseguire applicazioni o servizi attraverso Tor.
 
 Per chi ha _solo bisogno_ di __navigare il Web attraverso Tor__, è consigliato invece il __Tor Browser__.
