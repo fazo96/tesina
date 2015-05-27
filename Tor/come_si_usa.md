@@ -13,10 +13,10 @@ Essendo __Tor__ un software con interfaccia __a riga di comando__, è stata svil
 
 Questa interfaccia è molto apprezzata dagli utenti meno esperti che necessitano di eseguire applicazioni o servizi attraverso Tor.
 
-Per chi ha __solo bisogno__ di __navigare il Web attraverso Tor__, è consigliato invece il __Tor Browser__.
-
 ![Vidalia Network](http://i.imgur.com/d0iqO9N.png)
 - _Immagine:_ mappa (disegnata da __Vidalia__) che mostra la posizione nel mondo dei __nodi Tor__ a cui il mio computer era connesso durante la mia prova.
+
+Per chi ha __solo bisogno__ di __navigare il Web attraverso Tor__, è consigliato invece il __Tor Browser__.
 
 ### Tor Browser
 
