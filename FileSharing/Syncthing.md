@@ -6,7 +6,7 @@ __Syncthing__ è un __Software Libero__ pubblicato su [syncthing.net](http://syn
 ![Screenshot](http://2.bp.blogspot.com/-l9nooLvGiq0/U49JiCnoTKI/AAAAAAAATEI/qZGrWb1SGKQ/s1600/syncthing.png)
 - _Immagine:_ __GUI__ di __Syncthing__ in funzione su __Ubuntu Linux__
 
-L'intero ecosistema di __Syncthing__ è _libero_, _aperto_ e _Open Source_, il software nasce come applicativo a riga di comando con interfaccia _Web_, accessibile tramite un _Web Browser_. Ogni dispositivo è identificato tramite __TLS__ e l'indirizzo __IP__ degli altri dispositivi viene trovato tramite un __Software Tracker__ anch'esso __Open Source__. E' possibile utilizzare il tracker gestito dagli sviluppatori del software oppure usarne uno gestito personalmente.
+L'intero ecosistema di __Syncthing__ è _libero_, _aperto_ e _Open Source_: il software nasce come applicativo a riga di comando con interfaccia _Web_, accessibile tramite un _Web Browser_. Ogni dispositivo è identificato tramite __TLS__ e l'indirizzo __IP__ degli altri dispositivi viene comunicato tramite un __Software Tracker__ anch'esso __Open Source__. E' possibile utilizzare il tracker gestito dagli sviluppatori del software oppure usarne uno gestito personalmente.
 
 Il software è implementato usando il linguaggio di programmazione __Go__ (anche detto __Golang__).
 
