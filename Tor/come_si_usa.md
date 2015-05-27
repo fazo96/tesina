@@ -28,7 +28,7 @@ Il progetto, molto popolare per la sua accessibilità, è nato per __rendere la 
 
 I componenti aggiuntivi inclusi sono:
 
-- __NoScript__ che permette di gestire l'esecuzione degli __script__ inclusi nelle pagine web
+- __NoScript__ che permette di gestire l'esecuzione degli __script__ inclusi nelle pagine web.
 - __HTTPS Everywhere__ che permette di forzare l'uso di __HTTPs__ per proteggersi dall'attacco __exit node monitoring__ trattato successivamente.
 
 ### Gestire il proprio servizio nascosto
