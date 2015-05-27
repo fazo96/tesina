@@ -24,7 +24,7 @@ Il __Tor Browser__ (in precedenza chiamato __Tor Browser Bundle__) è una versio
 
 __Tor Browser__ è __portatile (dunque non richiede installazione)__ ed è disponibile per __Windows__, __OSX__ e __GNU/Linux__.
 
-Il progetto è nato per __rendere la navigazione tramite Tor semplice e immediata per tutti__, e la sua popolarità verifica un ottimo successo.
+Il progetto, molto popolare per la sua accessibilità, è nato per __rendere la navigazione tramite Tor semplice e immediata per tutti__.
 
 I componenti aggiuntivi inclusi sono:
 
