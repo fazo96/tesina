@@ -18,7 +18,7 @@ Ma sempre a causa degli __incentivi__ nel mantenere la rete funzionante, è diff
 
 ## Vulnerabilità della crittografia asimmetrica
 
-Il concetto di Bitcoin dipende interamente dalla crittografia asimmetrica, di conseguenza tutti i problemi di sicurezza legati al
+Il concetto di Bitcoin dipende interamente dalla crittografia asimmetrica, di conseguenza tutti i problemi di sicurezza legati ad essa e alla gestione delle __chiavi private__ sono applicabili al protocollo Bitcoin.
 
 ## Il furto del portafoglio
 

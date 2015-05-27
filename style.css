@@ -1,3 +1,7 @@
 img[alt="Syncthing"] {
   max-width: 25em !important;
 }
+
+p {
+  text-align: justify;
+}
