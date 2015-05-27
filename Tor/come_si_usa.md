@@ -15,6 +15,9 @@ Questa interfaccia è molto apprezzata dagli utenti meno esperti che necessitano
 
 Per chi ha __solo bisogno__ di __navigare il Web attraverso Tor__, è consigliato invece il __Tor Browser__.
 
+![Vidalia Network](http://i.imgur.com/d0iqO9N.png)
+- _Immagine:_ mappa che mostra la posizione nel mondo dei __nodi Tor__ a cui il mio computer era connesso durante la mia prova con __Vidalia__
+
 ### Tor Browser
 
 Il __Tor Browser__ (in precedenza chiamato __Tor Browser Bundle__) è una versione _estesa_ e _modificata_ di __Mozilla Firefox__ che consiste in un __browser web indipendente__ che __naviga esclusivamente tramite Tor__ e contiene una serie di __componenti aggiuntivi utili per proteggere la propria privacy e identità__
