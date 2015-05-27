@@ -1,6 +1,4 @@
-# Tor
-
-![Tor Logo](http://upload.wikimedia.org/wikipedia/commons/0/09/Tor-logo-2011-shaded.svg)
+![Tor](http://upload.wikimedia.org/wikipedia/commons/0/09/Tor-logo-2011-shaded.svg)
 
 > Tor is free software and an open network that helps you defend against traffic analysis, a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security.
 

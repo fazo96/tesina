@@ -1,8 +1,14 @@
 ![Syncthing](https://syncthing.net/images/logo-horizontal.svg)
+![SyncthingPDF](http://i.imgur.com/2xQnykS.png)
 
 __Syncthing__ è un __Software Libero__ pubblicato su [syncthing.net](http://syncthing.net) sotto licenza __Mozilla Public License Versione 2.0__. Sono disponibili distribuzioni per __Windows__, __OSX__, __GNU/Linux__, __BSD__, __Solaris__ e __Android__.
 
-L'intero ecosistema di __Syncthing__ è _libero_, _aperto_ e _Open Source_.
+![Screenshot](http://2.bp.blogspot.com/-l9nooLvGiq0/U49JiCnoTKI/AAAAAAAATEI/qZGrWb1SGKQ/s1600/syncthing.png)
+- _Immagine:_ __GUI__ di __Syncthing__ in funzione su __Ubuntu Linux__
+
+L'intero ecosistema di __Syncthing__ è _libero_, _aperto_ e _Open Source_, il software nasce come applicativo a riga di comando con interfaccia _Web_, accessibile tramite un _Web Browser_. Ogni dispositivo è identificato tramite __TLS__ e l'indirizzo __IP__ degli altri dispositivi viene trovato tramite un __Software Tracker__ anch'esso __Open Source__. E' possibile utilizzare il tracker gestito dagli sviluppatori del software oppure usarne uno gestito personalmente.
+
+Il software è implementato usando il linguaggio di programmazione __Go__ (anche detto __Golang__).
 
 ### Come si usa
 
@@ -22,11 +28,6 @@ Quando i due dispositivi __sono accesi contemporaneamente__ e __sono in grado di
 - alternativamente, un nodo può essere configurato in __sola lettura__ per una o più cartelle
 
 ### Dettagli tecnici
-
-Syncthing è un software a riga di comando con interfaccia _Web_, accessibile tramite un _Web Browser_. Ogni dispositivo è identificato tramite __TLS__ e l'indirizzo __IP__ degli altri dispositivi viene trovato tramite un __Software Tracker__ anch'esso __Open Source__. E' possibile utilizzare il tracker gestito dagli sviluppatori del software oppure usarne uno gestito personalmente.
-
-Il software è implementato usando il linguaggio di programmazione __Go__ (anche detto __Golang__).
-
 ### Block Exchange Protocol
 
 Syncthing è un'implementazione del __Block Exchange Protocol (BEP)__, che offre una soluzione al problema della sincronizzazione decentralizzata di una o più cartelle di file tra due o più dispositivi. Questo protocollo è nato e cresciuto insieme a Syncthing.

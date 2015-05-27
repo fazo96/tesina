@@ -1,7 +1,3 @@
-img[alt="Syncthing"] {
-  max-width: 25em !important;
-}
-
 img[alt="Tor"] {
   max-width: 20em !important;
 }
@@ -10,8 +6,13 @@ p {
   text-align: justify;
 }
 
-/* HTML */
+/* PDF */
 
-img[alt="SyncthingPDF"]{
+img[alt="Syncthing"]{
   display: none;
 }
+
+img[alt="SyncthingPDF"] {
+  width: 350px !important;
+}
+

@@ -1,6 +1,6 @@
 {
   "styles": {
-    "pdf": "style.css",
+    "pdf": "style_pdf.css",
     "website": "style.css"
   }
 }
