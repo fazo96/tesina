@@ -10,7 +10,7 @@ il protocollo, in breve, definisce che:
 - ogni messaggio è __firmato__ con la chiave privata del mittente e __interamente crittografato__ con la chiave pubblica del destinatario.
     - l'unica informazione visibile del messaggio è il __TTL__ che ha lo scopo di evitare il __flooding__ della rete con lo stesso messaggio
     - i messaggi rimangono nella rete solo per qualche giorno, poi sono persi per sempre se il mittente non decide di reinviare
-    - è necessario completare un __Proof Of Work__ (spiegato nel capitolo Bitcoin di questo documento) per l'invio di un messaggio 
+    - è necessario completare un __Proof Of Work__ (illustrato nel capitolo Bitcoin di questo documento) per l'invio di un messaggio 
 - la rete implementa meccanismi __anti-flooding__ per evitare la saturazione della stessa
 
 ## Come si usa
@@ -34,3 +34,17 @@ Essenzialmente, il protocollo __Bitmessage__ è molto semplice, infatti ogni nod
 
 In realtà, esso descrive procedure di __proof of work__ e __anti flooding__ molto complesse che permettono il corretto funzionamento della rete e il blocco di eventuali attaccanti.
 
+## Confronto con E-Mail
+
+La maggior parte dei problemi di __PyBitmessage__ derivano dal suo alto livello di sicurezza, che porta però a __bassa accessibilità__ e mancanza di __comodità__ nell'uso del software.
+
+Alcuni dei maggiori problemi di accessibilità del software sono:
+
+- mancanza di __client avanzati__ che invece esistono per le __E-Mail__ (ad esempio Mozilla _Thunderbird_ o Microsoft _Outlook_) e permettono di organizzare in maniera avanzata i messaggi
+- impossibilità di un'istanza del software di ricevere messaggi _non destinati ad essa_ (a scopo di _caching_). Anche se in futuro fosse possibile, sarebbero necessarie le __chiavi private__ di accesso dei destinatari
+- impossibilità (per ora) di usare __indirizzi arbitrari__ come ad esempio _nome.cognome@azienda.it_, costringendo invece gli utenti ad usare indirizzi auto generati impossibili da memorizzare
+- elevato uso di __risorse hardware__ ed elevata __congestione di rete__ causata dal software
+- mancanza di __client per tutte le piattaforme__ e di __client web__, questi ultimi perchè non permetterebbero di mantenere la sicurezza.
+- non ancora supportato l'uso di __password__ per proteggere le proprie chiavi private.
+
+Finchè non viene trovata soluzione ad almeno _parte_ di questi problemi, BitMessage __non è pronto__ per rimpiazzare le __E-Mail__.

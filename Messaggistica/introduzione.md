@@ -32,13 +32,22 @@ La messaggistica istantanea (spesso arracchita con __VoIP__ (telefonate via Inte
 
 ## Soluzioni
 
-Risolvere questo problema è molto difficile, poichè un sistema di messaggistica _decentralizzata_ che supporti il __VoIP__ è molto difficile da realizzare. Attualmente in svilppo esistono __Ricochet__ e __Tox__, mentre un'alternativa matura ma non più in evoluzione è __TorChat__.
+Risolvere questo problema è quasi impossibile, poichè a causa delle caratteristiche richieste, un sistema di messaggistica _decentralizzata_ che supporti il __VoIP__ è molto difficile da realizzare.
+
+__Perchè?__
+
+Innanzi tutto, un sistema di messaggistica istantanea richiede che il destinatario riceva sempre i messaggi a lui inviati e nel caso sia offline i __server__ mantengono i messaggi in memoria in modo da inviarli appena il destinatario si __collega__. Inoltre, i __server__ fungono da _ponte_ per l'invio dei messaggi in modo che sia sempre possibile il trasferimento, infatti __una connessione diretta tra interlocutori presenta una serie di problemi__, tra cui:
+
+- ogni interlocutore deve conoscere l'indirizzo __IP__ di almeno uno dei coinvolti nella conversazione: questo può essere risolto usando un __DHT__ e/o uno o più __tracker__, come fanno gli altri servizi decentralizzati, ad esempio __BitTorrent__ usa entrambe le soluzioni per massimizzare i guadagni.
+- se due utenti si trovano entrambi dietro un __NAT__ diverso, si verifica la situazione molto comune chiamata __NAT simmetrico__ che rende quasi impossibile la connessione diretta tra i due. Questo è risolvibile creando una connessione __indiretta__ tra gli interlocutori, passando per altri nodi, oppure incaricando altri nodi di consegnare i messaggi in maniera simile alla soluzione di __Bitmessage__.
+- difficoltà di immagazzinare i __metadati__ come, nel caso di conversazione di gruppo, il nome del gruppo o la storia di messaggi o il profilo degli utenti, perchè la mancanza di __server centrali__ rende potenzialmente __inaffidabile__ ogni utente. Questo può essere risolto creando un sistema di metadati distribuito simile alla soluzione di __Freenet__, usando firme digitali e crittografia per definire i permessi di modifica.
+- impossibilità di scambiare messaggi se due utenti __non sono online contemporaneamente__. Questo può essere risolto mantenendo una __cache distribuita__ e/o mantenendo in circolo i messaggi nella rete, in maniera simile alla soluzione di BitMessage.
+
+Questi problemi sono quasi tutti risolvibili in qualche modo, ma con enorme difficoltà. Attualmente in svilppo esistono alcuni servizi di messaggistica e/o __VoIP__ sperimentali tra cui __Ricochet__ e __Tox__, mentre un'alternativa matura ma non più in evoluzione è __TorChat__.
 
 ### TorChat
 
 TorChat è un servizio di messaggistica anonima nato nel 2007 e non più sviluppato attivamente che offre _decentralizzazione_ e _totale anonimato_ appoggiandosi alla rete __Tor__.
-
-Il software è distribuito online
 
 ### Ricochet
 
