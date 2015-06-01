@@ -32,6 +32,7 @@ Attenzione però: __Ghostery è un software Closed Source__, dunque non è possi
 Per i servizi come __File Sharing__, __Messaggistica__ e __Cloud Storage__ le alternative devono essere:
 
 - __decentralizzate__ o, alternativamente, permettere il __self-hosting__,
+- sicure utilizzando __crittografia__ e __firme digitali__,
 - configurabili e adattabili a diverse situazioni e casi d'uso,
 - rispettare la __privacy__ e consentire l'__anonimato__, limitando i dati immagazzinati o evitandone completamente la raccolta.
 
@@ -41,4 +42,10 @@ Il __self-hosting__ è una caratteristica di un __servizio__ che gli permette di
 
 ### Decentralizzazione
 
-La __decentralizzazione__ è una caratteristica di un __servizio__ che gli permette di 
+La __decentralizzazione__ è una caratteristica di un __servizio__ che gli permette di non dipendere da un singolo __server__ o un'insieme di pochi server, consentendogli di funzionare semplicemente con una rete di __client__ collegati tra loro. Spesso, per far si che i client scoprano i rispettivi _indirizzi IP_ permettendogli di connettersi, è comunque necessario un server di tipo __tracker__.
+
+Un __tracker__ differisce da un classico server perchè agisce semplicemente da punto di incontro per i client, permettendogli di avvisare della propria esistenza e quindi di conoscersi. Le informazioni non passano mai direttamente dal __tracker__. Nei client di servizi decentralizzati (come __Syncthing__) è spesso possibile scegliere quale o quali tracker utilizzare, o di non utilizzarne alcuni ma tentare direttamente la connessione ad alcuni indirizzi IP oppure di gestire il proprio tracker privato.
+
+Una __Distributed Hash Table__ è una tecnologia che permette di avere una tabella distribuita che agisce da coppia chiave-valore. Viene spesso usato per associare l'__indirizzo IP__ di un utente con il suo identificativo della rete (in caso di __BitTorrent__, ad esempio, vengono indicati i file posseduti). La __DHT__, come da definizione, non è offerta da un server ma è distribuita nella rete di _clients_.
+
+La conbinazione tra __DHT__ e una buona quantità di __Trackers__ rende stabile un servizio decentralizzato.
