@@ -10,8 +10,8 @@ Riassumento, i problemi del navigare il web sono il __tracciamento__, l'__analis
 
 Un __Ad Blocker__ è un software in grado di nascondere le pubblicità sulle pagine web visitate. Gli __Ad Blocker__ più avanzati sono in grado di:
 
-- nascondere gli elementi della pagina dedicati alle pubblicità
-- evitare l'esecuzione di __script__ o memorizzazione di __cookie__ non necessari per la fruizione dei contenuti della pagina, ad esempio quelli dedicati al tracciamento
+- nascondere gli elementi della pagina dedicati alle pubblicità;
+- evitare l'esecuzione di __script__ o memorizzazione di __cookie__ non necessari per la fruizione dei contenuti della pagina, ad esempio quelli dedicati al tracciamento;
 
 Gli __Ad Blocker__ più conosciuti sono __AdBlock__ e __AdBlock Plus__, entrambi però sono __Closed Source__ e generalmente considerati meno affidabili dell'alternativa __uBlock__, che si presenta come una soluzione più moderna, performante e completamente __Open Source__.
 
