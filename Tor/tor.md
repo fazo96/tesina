@@ -4,7 +4,7 @@
 
 > From https://www.torproject.org/
 
-Tor è un protocollo e la sua implementazione open source in grado di collegare gli utenti tra loro in una rete virtuale allo scopo di rendere anonimo il loro traffico.
+Tor è un protocollo e la sua implementazione open source in grado di collegare gli utenti tra loro in una rete virtuale che viene poi usata per _instradare_ il traffico dei suoi utenti allo scopo di renderlo anonimo.
 
 ## Come funziona
 
@@ -26,13 +26,13 @@ La rete di Tor usa una topologia a maglia: ogni utente connesso consiste in un _
 
 ### Confronto con una VPN
 
-Sul Web è facile trovare molti provider di accesso a __VPN__ che offrono _sicurezza_, _anonimato_, _possibilità_ di superare _filtri_ o _censure_ e velocità di navigazione. Una VPN però, per definizione, non è sicura quanto la rete __Tor__ perchè:
+Sul Web è facile trovare molti provider di accesso a __VPN__ pensate per oscurare il traffico che offrono _sicurezza_, _anonimato_, _possibilità_ di superare _filtri_ o _censure_ e alta velocità di navigazione. Una VPN però, per definizione, non è sicura quanto la rete __Tor__ perchè:
 
 - una __VPN__ è un sistema centralizzato, dunque:
-    - il gestore della __VPN__ può origliare sul traffico e raccogliere informazioni
-    - una __VPN__ (in particolare con __OpenVPN__) è soggetta a diverse _vulnerabilità_ se il gestore non ha le competenze per proteggersi
-- l'accesso alla __VPN__ si basa comunque su un account
-- un servizio __VPN__ per la navigazione è quasi sempre _a pagamento_.
+    - il gestore della __VPN__ può origliare sul traffico e raccogliere informazioni, mentre questo è possibile da parte degli __exit node__ di __Tor__ solo se l'utente vittima non è attento (vedasi sezione Limitazioni e Problemi di Tor)
+    - una __VPN__ (in particolare con __OpenVPN__) è soggetta a diverse _vulnerabilità_ se il gestore non ha le competenze per proteggersi, mentre un singolo utente di __Tor__ non può compromettere il servizio per gli altri utenti.
+- l'accesso alla __VPN__ si basa comunque su un account, mentre l'uso di __Tor__ è totalmente anonimo.
+- un servizio __VPN__ per la navigazione è quasi sempre _a pagamento_, mentre __Tor__ è anonimo e gratuito.
 
 ### Perché è sicuro e anonimo
 
@@ -40,9 +40,9 @@ Quando un nodo decide di spedire un pacchetto fuori dalla rete:
 - calcola la strada necessaria per raggiungere un nodo di uscita
 - prende le __chiavi pubbliche__ di tutti i nodi sulla strada in ordine
 - __crea un layer (strato) di crittografia per ogni nodo sulla strada verso l'uscita__, effettivamente incapsulando il pacchetto in numerosi strati
-  - Da qui deriva il nome "Tor", che originariamente significava "The Onion Router" (l'instradatore a cipolla).
+  - Da qui deriva il nome _"Tor"_, che originariamente significava _"The Onion Router"_ (l'instradatore a cipolla).
 
-Inoltre:
+Altre importanti caratteristiche:
 
 - A ogni __hop__ nella rete, ogni nodo rimuove il proprio strato di crittografia. In questo modo si è certi che il pacchetto originale possa essere letto solo dal __nodo di uscita__ e che il percorso del pacchetto __sia per forza quello stabilito in origine dal mittente__.
 
