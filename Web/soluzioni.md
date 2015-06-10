@@ -4,7 +4,7 @@ Dopo aver definito le caratteristiche _problematiche_ del moderno _World Wide We
 
 ## Navigazione
 
-Riassumento, i problemi del navigare il web sono il __tracciamento__, l'__analisi comportamentale__ e le __pubblicità mirate__: vediamo ora come risolverli.
+Riassumendo, i problemi del navigare il web sono: il __tracciamento__, l'__analisi comportamentale__ e le __pubblicità mirate__: vediamo ora come risolverli.
 
 ### Ad Blocker
 
