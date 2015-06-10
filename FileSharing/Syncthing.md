@@ -6,7 +6,7 @@ __Syncthing__ è un __Software Libero__ pubblicato su [syncthing.net](http://syn
 ![Screenshot](http://2.bp.blogspot.com/-l9nooLvGiq0/U49JiCnoTKI/AAAAAAAATEI/qZGrWb1SGKQ/s1600/syncthing.png)
 - _Immagine:_ __GUI__ di __Syncthing__ in funzione su __Ubuntu Linux__
 
-L'intero ecosistema di __Syncthing__ è _libero_, _aperto_ e _Open Source_: il software nasce come applicativo a riga di comando con interfaccia _Web_, accessibile tramite un _Web Browser_. Ogni dispositivo è identificato tramite __TLS__ e l'indirizzo __IP__ degli altri dispositivi viene comunicato tramite un __Software Tracker__ anch'esso __Open Source__. E' possibile utilizzare il tracker gestito dagli sviluppatori del software oppure usarne uno gestito personalmente.
+L'intero ecosistema di __Syncthing__ è _libero_, _aperto_ e _Open Source_: il software nasce come applicativo a riga di comando con un'aggiunta interfaccia _Web_, accessibile tramite un _Web Browser_. Ogni dispositivo è identificato tramite __TLS__ e l'indirizzo __IP__ degli altri dispositivi viene comunicato tramite un __Software Tracker__ anch'esso __Open Source__. E' possibile utilizzare il tracker gestito dagli sviluppatori del software oppure usarne uno gestito personalmente.
 
 Il software è implementato usando il linguaggio di programmazione __Go__ (anche detto __Golang__).
 
@@ -18,7 +18,7 @@ Passi da seguire su ogni dispositivo (almeno due sono necessari):
 1. dopo aver avviato il software seguendo le istruzioni offerte dal sito web, aggiungere alla lista dei dispositivi un'altro dispositivo con cui sincronizzare i propri dati.
 1. aggiungere una o più cartelle alla lista dei percorsi da sincronizzare e scegliere con quali dispositivi condividerle
 
-Quando i due dispositivi __sono accesi contemporaneamente__ e __sono in grado di comunicare via rete locale o internet__, cominceranno a sincronizzare il contenuto delle cartelle.
+Quando i due dispositivi __sono accesi contemporaneamente__ e __sono in grado di comunicare via rete locale o Internet__, cominceranno a sincronizzare il contenuto delle cartelle.
 
 - il comportamento del software in caso di conflitto dei file è configurabile.
 - il software supporta più sistemi di __Version Control__ per i dati delle cartelle.
@@ -39,6 +39,6 @@ __BEP__ utilizza __TCP__ per comunicare e __TLS__ per crittografia e autenticazi
 
 Spesso i dispositivi possono trovarsi dietro __NAT__ e/o __Firewall__.
 
-Syncthing include delle tecniche basilari di _NAT Traversal_, ma per comunicare uno dei due interlocutori deve poter ricevere __connessioni in ingresso__.
+Syncthing include delle tecniche basilari di _NAT Traversal_, ma per comunicare stabilmente uno dei due interlocutori deve poter ricevere __connessioni in ingresso__.
 
-Dunque, per avere la totale certezza che i dispositivi comunichino, è necessario posizionarli temporaneamente nella stessa rete locale, oppure utilizzare un terzo dispositivo in grado di ricevere __connessioni in ingresso__.
+Dunque, _per avere la totale certezza che due dispositivi comunichino_, è necessario posizionarli temporaneamente nella stessa rete locale, oppure utilizzare un __terzo dispositivo__ in grado di ricevere __connessioni in ingresso__ che può fungere da tramite e soprattutto permette la sincronizzazione anche se i due dispositivi da sincronizzare non sono mai accesi contemporaneamenti o mai connessi direttamente tra loro.

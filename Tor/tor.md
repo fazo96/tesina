@@ -42,7 +42,7 @@ Quando un nodo decide di spedire un pacchetto fuori dalla rete:
 - __crea un layer (strato) di crittografia per ogni nodo sulla strada verso l'uscita__, effettivamente incapsulando il pacchetto in numerosi strati
   - Da qui deriva il nome _"Tor"_, che originariamente significava _"The Onion Router"_ (l'instradatore a cipolla).
 
-Altre importanti caratteristiche:
+Quindi:
 
 - A ogni __hop__ nella rete, ogni nodo rimuove il proprio strato di crittografia. In questo modo si è certi che il pacchetto originale possa essere letto solo dal __nodo di uscita__ e che il percorso del pacchetto __sia per forza quello stabilito in origine dal mittente__.
 
@@ -50,7 +50,7 @@ Altre importanti caratteristiche:
 
 Di conseguenza qualsiasi intercettazione di un pacchetto a metà strada del percorso nella rete Tor è inutile poichè:
 
-- il pacchetto si trova __incapsulato almeno uno strato crittografico__
+- il pacchetto si trova __incapsulato in almeno uno strato crittografico__
 - il sorgente e il destinatario scritti nel __pacchetto intercettato__ sono quelli delle __due estremità del singolo collegamento tra due nodi Tor__, non quelli dell'originale destinatario e sorgente.
 - __solo l'exit node__ sa chi è il vero _destinatario_ del pacchetto.
 - __solo il nodo del primo hop__ sa chi è il vero _mittente_ del pacchetto.
@@ -65,9 +65,11 @@ __Attenzione__ alle intercettazioni dal _nodo di uscita_ alla _destinazione fina
 
 ## Servizi Nascosti
 
-Tor offre anche la possibilità di __gestire un servizio nascosto__ accessibile __esclusivamente tramite Tor__. Gli __hidden services__ di __Tor__ sono raggiungibili tramite la rete Tor attraverso il loro __onion address (.onion)__, un indirizzo che permette ai pacchetti di essere instradati alla corretta destinazione.
+Tor offre anche la possibilità di __gestire un servizio nascosto__ accessibile __esclusivamente tramite Tor__. Gli __hidden services__ di __Tor__ sono raggiungibili tramite la rete Tor attraverso il loro __onion address (.onion)__, un indirizzo che permette ai pacchetti di essere instradati alla corretta destinazione esattamente come i normali __hostname__ (ad esempio _google.it_ o _facebook.com_).
 
 Un __hidden service__ può essere mantenuto anche da dietro un qualsiasi __NAT__, __Firewall__ o sistema di sicurezza a patto che la macchina che lo ospita sia connessa alla rete __Tor__.
+
+Lo scopo degli __hidden service__ è di offrire un servizio senza però che gli utenti possano sapere il suo indirizzo __IP__ e dunque la sua _posizione fisica di origine_, particolarmente utile per nascondere l'identità dei gestori di servizi illegali.
 
 ### WWW To Onion Gateway
 

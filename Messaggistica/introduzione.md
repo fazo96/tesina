@@ -9,8 +9,9 @@ Il concetto di __E-Mail__ (posta elettronica) è una delle prime applicazioni pr
 
 Le E-Mail sono però distribuite __in chiaro__, senza __crittografia o firme digitali__, usando __server centralizzati__. Queste caratteristiche rendono le email un sistema __poco sicuro__, __tracciabile__ e __vulnerabile__ soprattutto perchè:
 
-- ogni messaggio intercettato è _leggibile_ e _alterabile_
+- ogni messaggio intercettato è _leggibile_ e potenzialmente _alterabile_
 - il sistema è vulnerabile a moltissime tipologie di attacchi
+- la mancanza di un sistema di __proof-of-work__ rende lo _spam_ (posta indesiderata di massa) molto comune
 - mittenti e destinatari sono difficilmente identificabili a causa della mancanza di __firme digitali__
 
 Questi problemi sono _parzialmente_ risolti usando i protocolli __GPG__ e __S/MIME__ rispettivamente per gestire l'aspetto di _firma_ e _crittografia_ e per integrarlo nelle __E-Mail__ insieme ad _allegati_, _immagini_ e altri documenti multimediali.
@@ -23,12 +24,13 @@ Bitmessage è un esempio di servizio _libero_, _sicuro_, _anonimo_ e _decentrali
 
 # Messaggistica istantanea e VoIP
 
-La messaggistica istantanea (spesso arracchita con __VoIP__ (telefonate via Internet) come nel caso di __Skype__ e __WhatsApp__) presenta numerosi problemi, tra cui:
+La messaggistica istantanea, spesso arricchita con __VoIP__ (telefonate via Internet) come nel caso di __Skype__ e __WhatsApp__, presenta numerosi problemi:
 
-- profonda centralizzazione
+- profonda centralizzazione, che:
+    - permette al gestore di conoscere completaemente _ogni interazione di ogni utente con il servizio_!
 - mancanza di crittografia __end-to-end__, ovvero dal mittente al destinatario, che causa:
-    - possibilità dei _server centralizzati_ di origliare ogni conversazione e alterare messaggi
-    - la divulgazione di tutte le conversazioni degli utenti (in caso i _server centralizzati_ vengano compromessi)
+    - possibilità dei _server centralizzati_ di origliare ogni conversazione e alterare messaggi,
+    - la potenziale divulgazione di tutte le conversazioni degli utenti in caso i _server centralizzati_ vengano compromessi.
 
 ## Soluzioni
 
@@ -42,6 +44,7 @@ Innanzi tutto, un sistema di messaggistica istantanea richiede che il destinatar
 - se due utenti si trovano entrambi dietro un __NAT__ diverso, si verifica la situazione molto comune chiamata __NAT simmetrico__ che rende quasi impossibile la connessione diretta tra i due. Questo è risolvibile creando una connessione __indiretta__ tra gli interlocutori, passando per altri nodi, oppure incaricando altri nodi di consegnare i messaggi in maniera simile alla soluzione di __Bitmessage__.
 - difficoltà di immagazzinare i __metadati__ come, nel caso di conversazione di gruppo, il nome del gruppo o la storia di messaggi o il profilo degli utenti, perchè la mancanza di __server centrali__ rende potenzialmente __inaffidabile__ ogni utente. Questo può essere risolto creando un sistema di metadati distribuito simile alla soluzione di __Freenet__, usando firme digitali e crittografia per definire i permessi di modifica.
 - impossibilità di scambiare messaggi se due utenti __non sono online contemporaneamente__. Questo può essere risolto mantenendo una __cache distribuita__ e/o mantenendo in circolo i messaggi nella rete, in maniera simile alla soluzione di BitMessage.
+- un sistema decentralizzato richiede __grande quantità di banda e di tempo__ per creare le necessarie connessioni e scambiare dati all'avvio del software client. _Entrambi questi requisiti_ non sono _quasi mai disponibili sui dispositivi mobili_ come gli smartphone, _i quali però sono i più usati_ per questo tipo di applicazione.
 
 Questi problemi sono quasi tutti risolvibili in qualche modo, ma con enorme difficoltà. Attualmente in svilppo esistono alcuni servizi di messaggistica e/o __VoIP__ sperimentali tra cui __Ricochet__ e __Tox__, mentre un'alternativa matura ma non più in evoluzione è __TorChat__.
 

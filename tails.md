@@ -21,7 +21,7 @@ Tails offre anche strumenti utili per rimuovere tracce da dispositivi di memoriz
 ![Tails Desktop](https://www.linuxquestions.org/questions/attachment.php?attachmentid=18436&d=1431527910)
 - _Immagine:_ Desktop Environment di __Tails OS 1.4__
 
-__Tails__ offre un'interfaccia grafica molto _semplice_ e _spoglia_ usando il popolare __Desktop Environment GNOME__.
+__Tails__ offre un'interfaccia grafica molto _semplice_ usando il popolare __Desktop Environment GNOME__.
 
 Dal desktop è possibile notare:
 - una serie di icone ad _accesso rapido _ per gli strumenti più importanti, tra cui
