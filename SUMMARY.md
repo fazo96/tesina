@@ -1,6 +1,5 @@
 # Summary
 
-* introduction
 * [Introduzione](README.md)
 * [Dalle Origini al Web 2.0](Web/web_moderno.md)
 * [Soluzioni ai problemi del Web](Web/soluzioni.md)
