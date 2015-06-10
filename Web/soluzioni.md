@@ -43,7 +43,7 @@ Il __self-hosting__ è la caratteristica di un __servizio__ che permette di crea
 
 ### Decentralizzazione
 
-La __decentralizzazione__ è la caratteristica di un __servizio__ che permette di non dipendere da un singolo __server__ o un'insieme di pochi server, consentendogli di funzionare semplicemente con una rete di __client__ collegati tra loro. Spesso, per far si che i client scoprano i rispettivi _indirizzi IP_ permettendogli di connettersi, è comunque necessario un server di tipo __tracker__.
+La __decentralizzazione__ è la caratteristica di un __servizio__ che permette di non dipendere da un singolo __server__ o un'insieme di pochi server, consentendogli di funzionare semplicemente con una rete di __client__ collegati tra loro. Spesso, per far si che i client scoprano i rispettivi _indirizzi IP_ permettendo loro di connettersi, è comunque necessario un server di tipo __tracker__.
 
 Un __tracker__ differisce da un classico server perchè agisce semplicemente da punto di incontro per i client, permettendogli di avvisare della propria esistenza e quindi di conoscersi. Le informazioni scambiate tra i client non passano mai direttamente dal __tracker__. Usando un servizio decentralizzato (come __Syncthing__) è spesso possibile scegliere quale o quali tracker utilizzare o di non utilizzarne alcuni ma tentare direttamente la connessione ad alcuni indirizzi IP oppure di gestire il proprio tracker privato.
 
