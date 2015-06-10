@@ -30,7 +30,7 @@ __PyBitmessage__ è disponibile gratuitamente sul sito [bitmessage.org](https://
 Essenzialmente, il protocollo __Bitmessage__ è molto semplice, infatti ogni nodo:
 
 - si collega direttamente ad altri nodi
-- ogni messaggio che riceve tenta di decrittografarlo con la propria chiave privata
+- tenta di decrittografare ogni messaggio che riceve con la propria chiave privata
     - se funziona, allora il messaggio è destinato a questo nodo
     - se non funziona, il TTL viene diminuito e il messaggio viene rispedito sulla rete
 - ai messaggi inviati va allegato un __proof of work__ molto tassante
