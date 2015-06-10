@@ -8,7 +8,6 @@ Il documento è stato steso usando:
 
 - conoscenza personale acquisita tramite esperienza nell'uso delle tecnologie descritte e studio di documenti, blog post e forum threads rilevanti.
 - [Wikipedia](https://it.wikipedia.org), in inglese e/o in italiano, per le informazioni specifiche riguardo la maggior parte dei concetti.
-- http://bitcoin.org ovvero il sito web del progetto __Bitcoin__.
 - http://torproject.org ovvero il sito web del progetto __Tor__.
 - http://www.coindesk.com e https://bitcoincharts.com per informazioni riguardo il valore nel tempo della moneta bitcoin.
 - ulteriori fonti sono state menzionate nel corso del testo.
