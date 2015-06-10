@@ -52,7 +52,7 @@ Gestire un servizio anonimo però __non è semplice__ soprattutto per i __proble
 
 ## Accesso a Tor bloccato
 
-Un ente potrebbe voler bloccare l'accesso alla rete Tor all'interno della propria infrastruttura per ovvie ragioni di sicurezza. Il miglior metodo è bloccare completamente il traffico destinato __agli indirizzi IP che corrispondo ai nodi Tor pubblici__, bloccando effettivamente l'accesso poichè il software ha bisogno di connettersi ad almeno un nodo direttamente per avere l'accesso alla rete.
+Un ente potrebbe voler bloccare l'accesso alla rete Tor all'interno della propria infrastruttura per ovvie ragioni di sicurezza. Il miglior metodo è bloccare completamente il traffico destinato __agli indirizzi IP che corrispondono ai nodi Tor pubblici__, bloccando effettivamente l'accesso poichè il software ha bisogno di connettersi direttamente ad almeno un nodo per avere l'accesso alla rete.
 
 ### Soluzione
 
