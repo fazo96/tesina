@@ -30,7 +30,7 @@ Queste informazioni sono dette __cookie__. Vediamo ora come funzionano:
     - i cookie possono essere __temporanei__ (si cancellano alla chiusura del browser) o __permanenti__ (si cancellano dopo un certo tempo o mai);
 - __se il client ha un cookie__, allora il server può usarlo per riconoscerlo confrontandolo con le associazioni __cookie-utente__ memorizzate;
 
-Queste caratteristiche espongono chiaramente dei problemi di sicurezza, ad esempio se un attaccante riuscisse a __copiare un cookie valido da un dispositivo altrui__ potrebbe __utilizzare liberamente l'account della vittima__.
+Queste caratteristiche evidenziano chiaramente dei problemi di sicurezza, ad esempio se un attaccante riuscisse a __copiare un cookie valido da un dispositivo altrui__ potrebbe __utilizzare liberamente l'account della vittima__.
 
 Grazie alla persistenza, i server dietro ai più visitati siti web possono profilare gli utenti, analizzando il loro comportamento.
 
