@@ -7,7 +7,7 @@
 * [Navigare anonimi con Tor](Tor/tor.md)
    * [In pratica](Tor/come_si_usa.md)
    * [Limitazioni e Problemi](Tor/limitazioni_e_problemi.md)
-* [Messaggistica anonima](Messaggistica/introduzione.md)
+* [La Messaggistica](Messaggistica/introduzione.md)
    * [Bitmessage: l'alternativa sicura alle Email](Messaggistica/bitmessage.md)
 * [Condividere file con sicurezza](FileSharing/file_sharing.md)
    * [Syncthing](FileSharing/Syncthing.md)
