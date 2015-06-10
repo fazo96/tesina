@@ -3,7 +3,7 @@
 * introduction
 * [Introduzione](README.md)
 * [Dalle Origini al Web 2.0](Web/web_moderno.md)
-* [Analisi delle soluzioni](Web/soluzioni.md)
+* [Soluzioni ai problemi del Web](Web/soluzioni.md)
 * [Navigare anonimi con Tor](Tor/tor.md)
    * [In pratica](Tor/come_si_usa.md)
    * [Limitazioni e Problemi](Tor/limitazioni_e_problemi.md)
