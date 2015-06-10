@@ -23,7 +23,7 @@ Tramite il plugin __Ghostery__, disponibile per tutti i browser web più usati, 
 - conoscere le aziende a cui sono destinate tali informazioni
 - bloccare l'invio delle informazioni di tracciamento
 
-__Per provare tutto ciò__ è infatti sufficiente installare __Ghostery__ e, seguendo le istruzioni su [ghostery.com/it](http://ghostery.com/it/), collegarsi a uno o più social network o servizio come Google, LinkedIn, Facebook, notando __immediatamente__ lo scambio di dati di tracciamento tra noi e i server di questi servizi.
+__Per provare tutto ciò__ è infatti sufficiente installare __Ghostery__ e, seguendo le istruzioni su [ghostery.com/it](http://ghostery.com/it/), collegarsi a uno o più social networks o servizi come Google, LinkedIn, Facebook, notando __immediatamente__ lo scambio di dati di tracciamento tra noi e i server di questi servizi.
 
 Attenzione però: __Ghostery è un software Closed Source__, dunque non è possibile sapere esattamente che tipo di operazioni esegua, la qualità della sua efficacia, e eventuali __backdoor__ presenti o __raccolte dati__ effettuate dal software.
 
