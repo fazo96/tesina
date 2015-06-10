@@ -60,7 +60,7 @@ TorChat è un servizio di messaggistica anonima nato nel 2007 e non più svilupp
 
 ### Tox
 
-[Tox.im](http://tox.im) è il nome dato a un protocollo e la sua implementazione _Open Source_ (chiamata __libtoxcore__) che permettono la comunicazione _sicura_, _anonima_ e _privata_ usando una rete decentralizzata. __Tox__ in se è una _libreria_ e non un programma direzionato agli _utenti finali_: per essi esistono i cosiddetti __Tox Client__, realizzati per diverse piattaforme tra cui __Windows__, __Linux__, __OSX__ e __Android__. Tutti i __Tox Client__ popolari sono _Open Source_.
+[Tox.im](http://tox.im) è il nome dato a un protocollo e alla sua implementazione _Open Source_ (chiamata __libtoxcore__) che permettono la comunicazione _sicura_, _anonima_ e _privata_ usando una rete decentralizzata. __Tox__ in sè è una _libreria_ e non un programma direzionato agli _utenti finali_: per essi esistono i cosiddetti __Tox Client__, realizzati per diverse piattaforme tra cui __Windows__, __Linux__, __OSX__ e __Android__. Tutti i __Tox Client__ popolari sono _Open Source_.
 
 __Tox__ è ancora in stato sperimentale, e solo di recente alcuni client hanno iniziato a supportare le __telefonate e videochiamate__. Inoltre, anche i __Tox Client__ più avanzati sono ancora __complessi e inaccessibili__ soprattutto per gli utenti meno esperti.
 
