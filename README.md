@@ -12,8 +12,6 @@ Il documento è stato steso usando:
 - http://www.coindesk.com e https://bitcoincharts.com per informazioni riguardo il valore nel tempo della moneta bitcoin.
 - ulteriori fonti sono state menzionate nel corso del testo.
 
-Una presentazione di questo documento è disponibile all'indirizzo http://fazo96.github.io/tesina/
+Una presentazione di questo documento è disponibile all'indirizzo [fazo96.github.io/tesina](http://fazo96.github.io/tesina/).
 
 La versione digitale di questo documento è disponibile all'indirizzo http://fazo96.gitbooks.io/anonimato-su-internet con possibilità di leggere online o scaricarlo in formato __PDF__.
-
-La presente __non è la versione definitiva del documento.__
