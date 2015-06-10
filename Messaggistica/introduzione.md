@@ -1,11 +1,13 @@
-# E-Mail
+# La Messaggistica
+
+## E-Mail
 
 Il concetto di __E-Mail__ (posta elettronica) è una delle prime applicazioni pratiche di __Internet__ e delle reti di calcolatori in generale. Si basa su protcolli standard, in particolare:
 
 - __SMTP__ (Simple Mail Transfer Protocol) per l'invio della posta.
 - __POP3__ e __IMAP__ per la ricezione e la lettura della posta contenuta in una __casella di posta elettronica__.
 
-## Problemi
+### Problemi
 
 Le E-Mail sono però distribuite __in chiaro__, senza __crittografia o firme digitali__, usando __server centralizzati__. Queste caratteristiche rendono le email un sistema __poco sicuro__, __tracciabile__ e __vulnerabile__ soprattutto perchè:
 
@@ -18,11 +20,11 @@ Questi problemi sono _parzialmente_ risolti usando i protocolli __GPG__ e __S/MI
 
 Anche lo _spam_ può essere limitato usando dei filtri anti-spam particolari nel proprio client di posta, resta però il problema che __i messaggi di spam sono scaricati comunque__ rallentando pesantemente la rete.
 
-## Soluzioni
+### Soluzioni
 
 Bitmessage è un esempio di servizio _libero_, _sicuro_, _anonimo_ e _decentralizzato_. che risolve la maggior parte dei problemi descritti, illustrato nella sezione dedicata.
 
-# Messaggistica istantanea e VoIP
+## Messaggistica istantanea e VoIP
 
 La messaggistica istantanea, spesso arricchita con __VoIP__ (telefonate via Internet) come nel caso di __Skype__ e __WhatsApp__, presenta numerosi problemi:
 
@@ -32,7 +34,7 @@ La messaggistica istantanea, spesso arricchita con __VoIP__ (telefonate via Inte
     - possibilità dei _server centralizzati_ di origliare ogni conversazione e alterare messaggi,
     - la potenziale divulgazione di tutte le conversazioni degli utenti in caso i _server centralizzati_ vengano compromessi.
 
-## Soluzioni
+### Soluzioni
 
 Risolvere questo problema è quasi impossibile, poichè a causa delle caratteristiche richieste, un sistema di messaggistica _decentralizzata_ che supporti il __VoIP__ è molto difficile da realizzare.
 
