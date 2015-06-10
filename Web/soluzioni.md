@@ -39,7 +39,7 @@ Per i servizi come __File Sharing__, __Messaggistica__ e __Cloud Storage__ le so
 
 ### Self-Hosting
 
-Il __self-hosting__ è una caratteristica di un __servizio__ che gli permette di creare diverse __istanze personalizzate__ gestite internamente da un'organizzazione o un privato. Questa caratteristica è associata ai servizi __liberi ma non decentralizzabili__ come ad esempio un __DBMS__.
+Il __self-hosting__ è la caratteristica di un __servizio__ che permette di creare diverse __istanze personalizzate__ gestite internamente da un'organizzazione o un privato. Questa caratteristica è associata ai servizi __liberi ma non decentralizzabili__ come ad esempio un __DBMS__.
 
 ### Decentralizzazione
 
