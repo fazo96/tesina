@@ -47,7 +47,7 @@ La __decentralizzazione__ è la caratteristica di un __servizio__ che permette d
 
 Un __tracker__ differisce da un classico server perchè agisce semplicemente da punto di incontro per i client, permettendo di avvisare della propria esistenza e quindi di conoscersi. Le informazioni scambiate tra i client non passano mai direttamente dal __tracker__. Usando un servizio decentralizzato (come __Syncthing__) è spesso possibile scegliere quale o quali tracker utilizzare o di non utilizzarne alcuni ma tentare direttamente la connessione ad alcuni indirizzi IP oppure di gestire il proprio tracker privato.
 
-Una __Distributed Hash Table__ è una tecnologia che permette di avere un __key-value store__ (tabella a due colonne) condivisa dai nodi di una rete decentralizzata.  Un key-value store contiene dati in formato _coppia-valore_: questo permette di accedere al valore determinato da una cerca chiave.
+Una __Distributed Hash Table__ è una tecnologia che permette di avere un __key-value store__ (tabella a due colonne) condivisa dai nodi di una rete decentralizzata.  Un key-value store contiene dati in formato _coppia-valore_: questo permette di accedere al valore determinato da una certa chiave.
 
 Per capire meglio, possiamo immaginare un __key-value store__ come una tabella a due colonne dove per ogni riga la prima colonna è la _chiave_, ovvero l'identificativo del dato mentre la seconda contiene il dato stesso.
 
