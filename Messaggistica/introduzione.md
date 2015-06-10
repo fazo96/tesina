@@ -22,7 +22,7 @@ Anche lo _spam_ può essere limitato usando dei filtri anti-spam particolari nel
 
 ### Soluzioni
 
-Bitmessage è un esempio di servizio _libero_, _sicuro_, _anonimo_ e _decentralizzato_. che risolve la maggior parte dei problemi descritti, illustrato nella sezione dedicata.
+Bitmessage è un esempio di servizio _libero_, _sicuro_, _anonimo_ e _decentralizzato_. che risolve la maggior parte dei problemi descritti come illustrato nella sezione dedicata.
 
 ## Messaggistica istantanea e VoIP
 
