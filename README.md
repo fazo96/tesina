@@ -14,4 +14,4 @@ Il documento è stato steso usando:
 
 Una presentazione di questo documento è disponibile all'indirizzo [fazo96.github.io/tesina](http://fazo96.github.io/tesina/).
 
-La versione digitale di questo documento è disponibile all'indirizzo http://fazo96.gitbooks.io/anonimato-su-internet con possibilità di leggere online o scaricarlo in formato __PDF__.
+La versione digitale di questo documento è disponibile all'indirizzo [fazo96.gitbooks.io/anonimato-su-internet](http://fazo96.gitbooks.io/anonimato-su-internet) con possibilità di leggere online o scaricarlo in formato __PDF__.
