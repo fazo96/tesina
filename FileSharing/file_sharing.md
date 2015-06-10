@@ -1,4 +1,6 @@
-# Cloud Storage
+# Condividere file con Sicurezza
+
+## Il Cloud Storage
 
 Con __Cloud Storage__ si intende l'_immagazzinare dei dati in remoto_ a scopo di File Sharing, File Hosting o backup personale, utilizzando _un servizio offerto da una terza parte_. Questo sistema presenta molteplici vantaggi:
 
