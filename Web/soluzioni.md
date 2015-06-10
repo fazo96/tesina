@@ -51,8 +51,8 @@ Una __Distributed Hash Table__ è una tecnologia che permette di avere un __key-
 
 Per capire meglio, possiamo immaginare un __key-value store__ come una tabella a due colonne dove per ogni riga la prima colonna è la _chiave_, ovvero l'identificativo del dato mentre la seconda contiene il dato stesso.
 
-- Nelle reti distribuite viene spesso usato per associare l'__indirizzo IP__ di un utente con il suo profilo, indirizzo, chiave pubblica o altro
-- in caso di __BitTorrent__, ad esempio, per ogni _torrent_ (che agisce da chiave) il valore è una lista di _indirizzi IP_ di clients che posseggono quel torrent
+- Nelle reti distribuite viene spesso usato per associare l'__indirizzo IP__ di un utente con il suo profilo, indirizzo, chiave pubblica o altro;
+- in caso di __BitTorrent__, ad esempio, per ogni _torrent_ (che agisce da chiave) il valore è una lista di _indirizzi IP_ di clients che posseggono quel torrent;
 - La __DHT__, come da definizione, non è offerta da un server ma è distribuita nella rete di _clients_.
 
 La conbinazione tra __DHT__ e __Trackers__ affidabili rende stabile un servizio decentralizzato, permettendo ai nodi di collegarsi tra loro in maniera efficiente.
