@@ -51,7 +51,7 @@ Quindi:
 Di conseguenza qualsiasi intercettazione di un pacchetto a metà strada del percorso nella rete Tor è inutile poichè:
 
 - il pacchetto si trova __incapsulato in almeno uno strato crittografico__
-- il sorgente e il destinatario scritti nel __pacchetto intercettato__ sono quelli delle __due estremità del singolo collegamento tra due nodi Tor__, non quelli dell'originale destinatario e sorgente.
+- il mittente e il destinatario scritti nel __pacchetto intercettato__ sono quelli delle __due estremità del singolo collegamento tra due nodi Tor__, non quelli dell'originale destinatario e sorgente.
 - __solo l'exit node__ sa chi è il vero _destinatario_ del pacchetto.
 - __solo il nodo del primo hop__ sa chi è il vero _mittente_ del pacchetto.
 
