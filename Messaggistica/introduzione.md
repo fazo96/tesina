@@ -48,7 +48,7 @@ Innanzi tutto, un sistema di messaggistica istantanea richiede che il destinatar
 - impossibilità di scambiare messaggi se due utenti __non sono online contemporaneamente__. Questo può essere risolto mantenendo una __cache distribuita__ e/o mantenendo in circolo i messaggi nella rete, in maniera simile alla soluzione di BitMessage.
 - un sistema decentralizzato richiede __grande quantità di banda e di tempo__ per creare le necessarie connessioni e scambiare dati all'avvio del software client. _Entrambi questi requisiti_ non sono _quasi mai disponibili sui dispositivi mobili_ come gli smartphone, _i quali però sono i più usati_ per questo tipo di applicazione.
 
-Questi problemi sono quasi tutti risolvibili in qualche modo, ma con enorme difficoltà. Attualmente in svilppo esistono alcuni servizi di messaggistica e/o __VoIP__ sperimentali tra cui __Ricochet__ e __Tox__, mentre un'alternativa matura ma non più in evoluzione è __TorChat__.
+Questi problemi sono quasi tutti risolvibili, ma con enorme difficoltà. Attualmente in svilppo esistono alcuni servizi di messaggistica e/o __VoIP__ sperimentali tra cui __Ricochet__ e __Tox__, mentre un'alternativa matura ma non più in evoluzione è __TorChat__.
 
 ### TorChat
 
