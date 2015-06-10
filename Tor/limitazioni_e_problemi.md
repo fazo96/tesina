@@ -23,6 +23,6 @@ Per questi motivi è anche possibile __saturare la rete con dati inutili come de
 
 ### Exit node monitoring
 
-Operando un __Exit Node__ è possibile catturare tutto il traffico degli utenti __Tor__ che usano poichè come visto prima, __Tor__ protegge il traffico solo fino all'__exit node__. Se il traffico dall'__exit node__ alla destinazione finale non è crittografato, l'__exit node__ può leggere il traffico senza problemi.
+Operando un __Exit Node__ è possibile catturare tutto il traffico degli utenti __Tor__ poichè come visto prima, __Tor__ protegge il traffico solo fino all'__exit node__. Se il traffico dall'__exit node__ alla destinazione finale non è crittografato, l'__exit node__ può leggere il traffico senza problemi.
 
 Un utente inesperto potrebbe dunque inviare dati importanti in chiaro attraverso __Tor__: la sorgente di questi dati sarebbe anonima, ma il contenuto potrebbe essere letto da chiunque si trovi nel percorso tra __exit node__ e __destinatario__, __exit node compreso__.
