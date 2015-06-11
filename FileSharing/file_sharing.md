@@ -41,15 +41,15 @@ Un utente che entra in possesso di un __torrent__ legato ad esempio a una collez
 
 Il file __.torrent__ contiene semplicemente:
 
-- il nome e la dimensione dei file legati al torrent
-- il/i __tracker__ a cui collegarsi per trovare gli utenti che possiedono i file
+- il nome e la dimensione dei file legati al torrent;
+- il/i __tracker__ a cui collegarsi per trovare gli utenti che possiedono i file.
 
 Tramite __tracker__, gli utenti pubblicizzano il fatto di possedere un determinato __torrent__ in modo da trovare gli interessati e diffondere ulteriormente i file o ottenere le parti mancanti. Questo significa che:
 
-- un __.torrent__ popolare è molto più veloce da scaricare. In gergo viene chiamato __healthy torrent__.
+- un __.torrent__ popolare è molto più veloce da scaricare. In gergo viene chiamato __healthy torrent__;
 - un __.torrent__ abbandonato è impossibile da scaricare, rendendo persi per sempre i dati contenuti. Questo viene chiamato __dead torrent__.
 
-In particolare, coloro che hanno il __100%__ dei dati del torrent ma rimangono connessi alla rete sono chiamati __Seed__ perchè fanno da __seme__ per la diffusione dei dati, mentre gli altri sono chiamati __peer__. I __leech__, invece, sono coloro che scaricano di dati ma non li redistribuiscono e sono ovviamente nocivi per la vita dei __torrent__.
+In particolare, coloro che hanno il __100%__ dei dati del torrent ma rimangono connessi alla rete sono chiamati __Seed__ perchè fanno da __seme__ per la diffusione dei dati, mentre gli altri sono chiamati __peer__. I __leech__, invece, sono coloro che scaricano dati ma non li redistribuiscono (consumando la preziosa banda in upload dei seed e dei peer) e sono ovviamente nocivi per la vita dei __torrent__.
 
 BitTorrent supporta anche __crittografia__ e __hole punching__ per superare __NAT__ non simmetrici e promuovere la privacy. Utilizza principalmente __UDP__ per le connessioni. A causa della decentralizzazione e della conseguente difficoltà nel bloccare l'accesso ai file, viene usato spesso dai __pirati informatici__ ma a differenza dall'__opinione popolare__, è usato solo parzialmente dai __pirati__ ed è __illegale__ solo se usato per distribuire materiale protetto da copyright senza permesso.
 
@@ -59,6 +59,6 @@ __Bittorrent Sync__ (anche detto __BTSync__) è un software proprietario di __Bi
 
 Il software è disponibile per __Windows__, __GNU/Linux__, __OSX__, __Android__, __iOS__, __Windows Phone__ e __Kindle Fire__.
 
-Differisce da __BitTorrent__ poichè Sync, come si può capire dal nome, permette la _sincronizzazione_ dei dati usando il protocollo BitTorrent, senza limitarsi alla _diffusione_ come le implementazioni standard di quest'ultimo.
+Differisce da __BitTorrent__ poichè Sync, come si può capire dal nome, permette la _sincronizzazione dei dati_ usando il protocollo BitTorrent, senza limitarsi alla _diffusione dei dati_ come le implementazioni standard di quest'ultimo.
 
-Esso è però considerato dalla comunità come una __soluzione parziale__ al problema del Cloud Storage, perchè Bittorrent Sync è una __tecnologia proprietaria, chiusa__ e dunque __potenzialmente inaffidabile__ dal punto di vista __della sicurezza e della privacy__.
+Esso è però considerato dalla comunità come una __soluzione parziale__ al problema del file sharing, perchè Bittorrent Sync è una __tecnologia proprietaria, chiusa__ e dunque __potenzialmente inaffidabile__ dal punto di vista __della sicurezza e della privacy__.

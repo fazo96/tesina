@@ -6,26 +6,26 @@ __Syncthing__ è un __Software Libero__ pubblicato su [syncthing.net](http://syn
 ![Screenshot](http://2.bp.blogspot.com/-l9nooLvGiq0/U49JiCnoTKI/AAAAAAAATEI/qZGrWb1SGKQ/s1600/syncthing.png)
 - _Immagine:_ __GUI__ di __Syncthing__ in funzione su __Ubuntu Linux__
 
-L'intero ecosistema di __Syncthing__ è _libero_, _aperto_ e _Open Source_: il software nasce come applicativo a riga di comando con un'aggiunta interfaccia _Web_, accessibile tramite un _Web Browser_. Ogni dispositivo è identificato tramite __TLS__ e l'indirizzo __IP__ degli altri dispositivi viene comunicato tramite un __Software Tracker__ anch'esso __Open Source__. E' possibile utilizzare il tracker gestito dagli sviluppatori del software oppure usarne uno gestito personalmente.
+L'intero ecosistema di __Syncthing__ è _libero_, _aperto_ e _Open Source_: il software nasce come applicativo a riga di comando con un'aggiunta interfaccia _Web_, accessibile tramite un _Web Browser_. Ogni dispositivo è identificato tramite coppia di chiavi crittografiche (usando __TLS__) e l'indirizzo __IP__ degli altri dispositivi viene comunicato tramite un __Tracker__ anch'esso __Open Source__. E' possibile utilizzare il Tracker gestito dagli sviluppatori del software, usarne uno gestito personalmente o connettersi direttamente a indirizzi conosciuti senza usare un tracker.
 
 Il software è implementato usando il linguaggio di programmazione __Go__ (anche detto __Golang__).
 
 ### Come si usa
 
-Passi da seguire su ogni dispositivo (almeno due sono necessari):
+Passi da seguire su ogni dispositivo (almeno due dispositivi sono necessari):
 
 1. ottenere il software navigando sul sito [syncthing.net](http://syncthing.net) e scaricando la versione per il proprio sistema operativo
 1. dopo aver avviato il software seguendo le istruzioni offerte dal sito web, aggiungere alla lista dei dispositivi un'altro dispositivo con cui sincronizzare i propri dati.
 1. aggiungere una o più cartelle alla lista dei percorsi da sincronizzare e scegliere con quali dispositivi condividerle
 
-Quando i due dispositivi __sono accesi contemporaneamente__ e __sono in grado di comunicare via rete locale o Internet__, cominceranno a sincronizzare il contenuto delle cartelle.
+Quando almeno due dispositivi __sono accesi contemporaneamente__ e __sono in grado di comunicare via rete locale o Internet__, cominceranno a sincronizzare il contenuto delle cartelle.
 
-- il comportamento del software in caso di conflitto dei file è configurabile.
-- il software supporta più sistemi di __Version Control__ per i dati delle cartelle.
+- il comportamento del software in caso di conflitto dei file è configurabile;
+- il software supporta più sistemi di __Version Control__ per i dati delle cartelle;
 - è possibile scegliere un dispositivo __Master__ per ogni cartella:
-    - solo il __Master__ sarà in grado di modificare il contenuto.
+    - solo il __Master__ sarà in grado di modificare il contenuto;
     - gli altri nodi accetteranno modifiche solo dal __Master__.
-- alternativamente, un nodo può essere configurato in __sola lettura__ per una o più cartelle
+- alternativamente, un nodo può essere configurato in __sola lettura__ per una o più cartelle.
 
 ### Block Exchange Protocol
 
@@ -41,4 +41,4 @@ Spesso i dispositivi possono trovarsi dietro __NAT__ e/o __Firewall__.
 
 Syncthing include delle tecniche basilari di _NAT Traversal_, ma per comunicare stabilmente uno dei due interlocutori deve poter ricevere __connessioni in ingresso__.
 
-Dunque, _per avere la totale certezza che due dispositivi comunichino_, è necessario posizionarli temporaneamente nella stessa rete locale, oppure utilizzare un __terzo dispositivo__ in grado di ricevere __connessioni in ingresso__ che può fungere da tramite e soprattutto permette la sincronizzazione anche se i due dispositivi da sincronizzare non sono mai accesi contemporaneamenti o mai connessi direttamente tra loro.
+Dunque, _per avere la totale certezza che due dispositivi comunichino_, è necessario posizionarli temporaneamente nella stessa rete locale, oppure utilizzare un __terzo dispositivo__ in grado di ricevere __connessioni in ingresso__ che può fungere da tramite e soprattutto permette la sincronizzazione anche se i due dispositivi da sincronizzare non sono mai accesi contemporaneamente o mai connessi direttamente tra loro.

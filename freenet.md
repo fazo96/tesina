@@ -23,7 +23,7 @@ Per interfacciarsi a __Freenet__ è necessario un Browser Web. Questo perchè il
 
 ## Come funziona
 
-__Freenet__ usa un modello di comunicazione __molto simile a quello di Tor__ (dettagliato nel capitolo dedicato a Tor), crittografando tutte le comunicazioni. Inoltre grazie alla sua __decentralizzazione__, combatte efficacemente la censura, e non permette di __origliare__ sulle comunicazioni.
+__Freenet__ usa un modello di comunicazione __molto simile a quello di Tor__ (dettagliato nel capitolo dedicato a Tor), crittografando tutte le comunicazioni. Inoltre grazie alla sua __decentralizzazione__, combatte efficacemente la censura e non permette di __origliare__ sulle comunicazioni.
 
 Come detto in precedenza, i dati sono organizzati in un __database distribuito__ che non ha centralizzazione ma si trova su tutti i computer degli utenti di __Freenet__, permettendo di accedere ai dati pubblicati in origine da un utente anche se esso non è più collegato da tempo alla rete __Freenet__. I dati sono mantenuti finchè rimangono abbastanza popolari, poi vengono scartati gradualmente per lasciare posto a dati più importanti e popolari.
 
