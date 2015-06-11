@@ -26,10 +26,8 @@ Questa tecnologia presenta anche degli svantaggi:
 
 La maggior parte delle problematiche del __Cloud Storage__ sono derivate da __centralizzazione__ e __delega__ della gestione a una __terza parte__. Questi problemi non esistono se vengono utilizzate tecnologie di __Cloud Storage decentralizzato__, infatti queste tecnologie:
 
-- funzionano indipendentemente (o quasi, in alcuni casi), senza bisogno di una __terza parte__, dunque:
-    - non esiste il problema del fallimento dell'infrastruttura della terza parte;
-- non hanno bisogno di __server__ per conservare le informazioni, perchè:
-    - i dati sono inviati direttamente da un dispositivo all'altro;
+- funzionano indipendentemente (o quasi, in alcuni casi), senza bisogno di una __terza parte__, dunque non esiste il problema del fallimento dell'infrastruttura centralizzata gestita dalla terza parte;
+- non hanno bisogno di __server__ per conservare le informazioni, perchè i dati sono inviati direttamente da un dispositivo all'altro;
 - funzionano anche in una rete locale non connessa a Internet;
 - sono limitati solo dalla _potenza di calcolo_ dei dispositivi e dalla _qualità della connessione_ tra loro.
 
